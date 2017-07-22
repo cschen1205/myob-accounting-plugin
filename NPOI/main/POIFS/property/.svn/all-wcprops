@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property
+END
+PropertyFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/PropertyFactory.cs
+END
+PropertyTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/PropertyTable.cs
+END
+PropertyConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/PropertyConstants.cs
+END
+Child.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/Child.cs
+END
+DocumentProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/DocumentProperty.cs
+END
+Property.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/Property.cs
+END
+RootProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/RootProperty.cs
+END
+DirectoryProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/DirectoryProperty.cs
+END
+Parent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54070/AllInOne/main/POIFS/property/Parent.cs
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric
+END
+DivideEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/DivideEval.cs
+END
+SubtractEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/SubtractEval.cs
+END
+AddEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/AddEval.cs
+END
+PowerEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/PowerEval.cs
+END
+TwoOperandNumericOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/TwoOperandNumericOperation.cs
+END
+MultiplyEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/TwoOperandNumeric/MultiplyEval.cs
+END

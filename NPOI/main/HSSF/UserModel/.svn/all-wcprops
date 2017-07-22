@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel
+END
+HSSFPolygon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPolygon.cs
+END
+HSSFSheetConditionalFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFSheetConditionalFormatting.cs
+END
+OperationEvaluatorFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/OperationEvaluatorFactory.cs
+END
+EvaluationCycleDetectorManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/EvaluationCycleDetectorManager.cs
+END
+FontDetails.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/FontDetails.cs
+END
+DVConstraint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/DVConstraint.cs
+END
+EvaluationCycleDetector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/EvaluationCycleDetector.cs
+END
+HSSFWorkbook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFWorkbook.cs
+END
+HSSFFooter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFFooter.cs
+END
+HSSFEvaluationSheet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFEvaluationSheet.cs
+END
+HSSFCellStyle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFCellStyle.cs
+END
+HSSFShape.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFShape.cs
+END
+HSSFFontFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFFontFormatting.cs
+END
+HSSFShapeContainer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFShapeContainer.cs
+END
+EscherGraphics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/EscherGraphics.cs
+END
+HSSFRow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFRow.cs
+END
+HSSFBorderFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFBorderFormatting.cs
+END
+HSSFPatternFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPatternFormatting.cs
+END
+HSSFClientAnchor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFClientAnchor.cs
+END
+HSSFAnchor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFAnchor.cs
+END
+HSSFOptimiser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFOptimiser.cs
+END
+HSSFAutoFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFAutoFilter.cs
+END
+HSSFCell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFCell.cs
+END
+HSSFRichTextString.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFRichTextString.cs
+END
+HSSFDataFormat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFDataFormat.cs
+END
+HeaderFooter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HeaderFooter.cs
+END
+HSSFEvaluationWorkbook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFEvaluationWorkbook.cs
+END
+HSSFErrorConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFErrorConstants.cs
+END
+HSSFHeader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFHeader.cs
+END
+HSSFFormulaEvaluator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFFormulaEvaluator.cs
+END
+HSSFTextbox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFTextbox.cs
+END
+HSSFConditionalFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFConditionalFormatting.cs
+END
+HSSFPalette.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPalette.cs
+END
+HSSFObjectData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFObjectData.cs
+END
+HSSFChart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/57344/AllInOne/main/HSSF/UserModel/HSSFChart.cs
+END
+HSSFComment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFComment.cs
+END
+HSSFCreationHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFCreationHelper.cs
+END
+HSSFHyperlink.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFHyperlink.cs
+END
+HSSFPictureData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPictureData.cs
+END
+HSSFFont.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFFont.cs
+END
+HSSFEvaluationCell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFEvaluationCell.cs
+END
+HSSFSheet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFSheet.cs
+END
+HSSFSimpleShape.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFSimpleShape.cs
+END
+HSSFPicture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPicture.cs
+END
+HSSFPatriarch.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPatriarch.cs
+END
+HSSFPrintSetup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFPrintSetup.cs
+END
+HSSFShapeGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFShapeGroup.cs
+END
+HSSFChildAnchor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFChildAnchor.cs
+END
+HSSFName.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57289/AllInOne/main/HSSF/UserModel/HSSFName.cs
+END
+StaticFontMetrics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/StaticFontMetrics.cs
+END
+HSSFDataValidation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFDataValidation.cs
+END
+HSSFConditionalFormattingRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/HSSF/UserModel/HSSFConditionalFormattingRule.cs
+END

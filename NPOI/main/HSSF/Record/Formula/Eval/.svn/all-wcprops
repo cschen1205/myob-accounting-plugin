@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval
+END
+MissingArgEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/MissingArgEval.cs
+END
+AreaEvalBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/AreaEvalBase.cs
+END
+StringValueEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/StringValueEval.cs
+END
+StringEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/StringEval.cs
+END
+ConcatEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/ConcatEval.cs
+END
+RefEvalBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RefEvalBase.cs
+END
+NameXEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/NameXEval.cs
+END
+AreaEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/AreaEval.cs
+END
+UnaryMinusEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/UnaryMinusEval.cs
+END
+RefEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RefEval.cs
+END
+ValueEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/ValueEval.cs
+END
+EvaluationException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/EvaluationException.cs
+END
+Eval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/Eval.cs
+END
+NameEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/NameEval.cs
+END
+NumericOperationEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/NumericOperationEval.cs
+END
+FunctionEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/FunctionEval.cs
+END
+BlankEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/BlankEval.cs
+END
+StringOperationEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/StringOperationEval.cs
+END
+NumberEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/NumberEval.cs
+END
+ErrorEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/ErrorEval.cs
+END
+BoolEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/BoolEval.cs
+END
+RangeEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RangeEval.cs
+END
+ValueEvalToNumericXlator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/ValueEvalToNumericXlator.cs
+END
+NumericValueEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/NumericValueEval.cs
+END
+OperationEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/OperationEval.cs
+END
+PercentEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/PercentEval.cs
+END
+OperandResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/OperandResolver.cs
+END
+UnaryPlusEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/UnaryPlusEval.cs
+END

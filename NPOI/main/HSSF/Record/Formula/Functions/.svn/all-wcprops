@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions
+END
+Fact.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fact.cs
+END
+Degrees.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Degrees.cs
+END
+Fixed1ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fixed1ArgFunction.cs
+END
+Today.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Today.cs
+END
+Hlookup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Hlookup.cs
+END
+Fixed3ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fixed3ArgFunction.cs
+END
+Days360.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Days360.cs
+END
+Rows.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Rows.cs
+END
+LookupUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/LookupUtils.cs
+END
+Sign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Sign.cs
+END
+Pmt.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Pmt.cs
+END
+Function1Arg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function1Arg.cs
+END
+Var3or4ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Var3or4ArgFunction.cs
+END
+Indirect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Indirect.cs
+END
+Function3Arg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function3Arg.cs
+END
+Npv.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Npv.cs
+END
+Sumx2my2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Sumx2my2.cs
+END
+Combin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Combin.cs
+END
+Lookup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Lookup.cs
+END
+Ceiling.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Ceiling.cs
+END
+Dollar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Dollar.cs
+END
+Mod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Mod.cs
+END
+Columns.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Columns.cs
+END
+CalendarFieldFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/CalendarFieldFunction.cs
+END
+DateFunc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/DateFunc.cs
+END
+NotImplementedFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/NotImplementedFunction.cs
+END
+Int.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Int.cs
+END
+MultiOperandNumericFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/MultiOperandNumericFunction.cs
+END
+Exp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Exp.cs
+END
+Even.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Even.cs
+END
+Var2or3ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Var2or3ArgFunction.cs
+END
+T.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/T.cs
+END
+Nper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Nper.cs
+END
+Index.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Index.cs
+END
+Countif.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Countif.cs
+END
+CountUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/CountUtils.cs
+END
+Value.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Value.cs
+END
+Fixed0ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fixed0ArgFunction.cs
+END
+Choose.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Choose.cs
+END
+Fixed2ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fixed2ArgFunction.cs
+END
+Floor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Floor.cs
+END
+Fixed4ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fixed4ArgFunction.cs
+END
+FreeRefFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/FreeRefFunction.cs
+END
+Sumxmy2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Sumxmy2.cs
+END
+StatsLib.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/StatsLib.cs
+END
+Function.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function.cs
+END
+Counta.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Counta.cs
+END
+XYNumericFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/XYNumericFunction.cs
+END
+FinanceLib.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/FinanceLib.cs
+END
+Power.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Power.cs
+END
+Var1or2ArgFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Var1or2ArgFunction.cs
+END
+Column.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Column.cs
+END
+If.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/If.cs
+END
+Function0Arg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function0Arg.cs
+END
+Vlookup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Vlookup.cs
+END
+Function2Arg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function2Arg.cs
+END
+Function4Arg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Function4Arg.cs
+END
+Odd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Odd.cs
+END
+FinanceFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/FinanceFunction.cs
+END
+Fv.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Fv.cs
+END
+Radians.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Radians.cs
+END
+MathX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/MathX.cs
+END
+Mode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Mode.cs
+END
+Pv.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Pv.cs
+END
+Offset.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Offset.cs
+END
+Count.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Count.cs
+END
+MinaMaxa.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/MinaMaxa.cs
+END
+Match.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Match.cs
+END
+AggregateFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/AggregateFunction.cs
+END
+Na.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Na.cs
+END
+Sumproduct.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Sumproduct.cs
+END
+Row.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Row.cs
+END
+Sumx2py2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Sumx2py2.cs
+END

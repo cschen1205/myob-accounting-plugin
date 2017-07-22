@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WoaDefault.master.cs" Inherits="Woa.WoaDefault" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+
+    <OfficeWebUI:Manager ID="Manager1" runat="server" UITheme="Office2010Silver" IncludeJQuery="true" ChromeUI="true" />
+    
+    <div style="background:#fff url(/library/img/apptitle.png) top center no-repeat;">
+    <OfficeWebUI:OfficeRibbon ID="OfficeRibbon1" runat="server" ApplicationMenuColor="green" ApplicationMenuText="File" ApplicationMenuType="Backstage" ShowToggleButton="true">
+        <ApplicationMenu>
+            <BackstagePages>
+               <OfficeWebUI:BackstagePage ID="BackstagePage1" runat="server" Text="General" UserControl="~/Library/ascx/BackstagePage_General.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePage2" runat="server" Text="Settings" UserControl="~/Library/ascx/BackstagePage_Settings.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePage3" runat="server" Text="Resources" UserControl="~/Library/ascx/BackstagePage_Resources.ascx" />
+            </BackstagePages>
+        </ApplicationMenu>
+        <Contexts>
+            <OfficeWebUI:RibbonContext ID="RibbonContext1" runat="server" ContextColor="transparent" Text="">
+                <Tabs>
+                    <OfficeWebUI:RibbonTab ID="RibbonTab101" runat="server" Text="General">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup3" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone1" runat="server" Text="Zone 1">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItem3" runat="server" ImageUrl="~/library/img/32/icon9_32.png" NavigateUrl="~/default.aspx" Text="Application<br>home" ToolTip="<b>Home button</b><br/>Go back to the home screen" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup1" runat="server" Text="Activities">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone12" runat="server" Text="Zone 1">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItem1" runat="server" Enabled="false" ImageUrl="~/library/img/32/icon52_32.png" Text="New item" ToolTip="<b>Create a new item</b><br/>Use this option to create a new item in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItem2" runat="server" ImageUrl="~/library/img/32/icon117_32.png" Text="Users" ToolTip="<b>Create new user</b><br/>Use this option to create a new item in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup2" runat="server" Text="Activities">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone3" runat="server" Text="Zone 1">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItem1" runat="server" ImageUrl="~/library/img/16/icon35.png" Text="Report" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem2" runat="server" ImageUrl="~/library/img/16/icon44.png" Text="Save & Properties" />
+                                        </Content>                                        
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup5" runat="server" Text="Another group">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone4" runat="server" Text="Zone 1">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItem3" runat="server" ImageUrl="~/library/img/16/icon35.png" Text="Report" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem4" runat="server" ImageUrl="~/library/img/16/icon44.png" Text="Save & Properties" />
+                                        </Content>                                        
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>       
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup6" runat="server" Text="And another one">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone5" runat="server" Text="Zone 1">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItem5" runat="server" ImageUrl="~/library/img/16/icon35.png" Text="Report" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem6" runat="server" ImageUrl="~/library/img/16/icon44.png" Text="Save & Properties" />
+                                        </Content>                                        
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>                                                 
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                </Tabs>
+            </OfficeWebUI:RibbonContext>           
+            
+        </Contexts>
+    </OfficeWebUI:OfficeRibbon>
+    </div>
+ 
+    
+    <OfficeWebUI:OfficeWorkspace ID="Workspace1" runat="server">
+        <Areas>
+            <OfficeWebUI:Area Text="Personal" ID="Area_Personal" ImageUrl="~/Library/img/16/icon48.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="My stuff">
+                        <Items>
+                            <OfficeWebUI:Item Text="Inbox" ID="Item_Inbox" ImageUrl="~/library/img/16/icon137.png" NavigateUrl="~/Inbox.aspx"  />
+                            <OfficeWebUI:Item Text="Calendar" ID="Item_Calendar" ImageUrl="~/library/img/16/icon90.png" NavigateUrl="~/Calendar.aspx" />
+                            <OfficeWebUI:Item Text="My documents" ID="Item_Docs" ImageUrl="~/library/img/16/icon41.png" NavigateUrl="~/Docs.aspx" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+            <OfficeWebUI:Area Text="Sales" ID="Area_Sales" ImageUrl="~/Library/img/16/icon67.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Quick access">
+                        <Items>
+                            <OfficeWebUI:Item Text="Customers" ID="Item1" NavigateUrl="~/Customers.aspx" />
+                            <OfficeWebUI:Item Text="Products" ID="Item2" NavigateUrl="~/Products.aspx" />
+                            
+                            <OfficeWebUI:Item Text="Fabrikam" ID="Item_Customer1" NavigateUrl="~/CustomerDetails.aspx" />
+                            <OfficeWebUI:Item Text="Northwind" ID="Item_Customer2" />
+                            <OfficeWebUI:Item Text="Woodgrove" ID="Item_Customer3" />
+                            <OfficeWebUI:Item Text="AdventureWorks" ID="Item_Customer4" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                    <OfficeWebUI:Section Text="Products">
+                        <Items>
+                            <OfficeWebUI:Item Text="Product A" ID="Item4" />
+                            <OfficeWebUI:Item Text="Product B" ID="Item5" />
+                            <OfficeWebUI:Item Text="Product C" ID="Item6" />
+                            <OfficeWebUI:Item Text="Product D" ID="Item7" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+            <OfficeWebUI:Area Text="Marketing" ID="Area_Marketing" ImageUrl="~/Library/img/16/icon105.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Websites">
+                        <Items>
+                            <OfficeWebUI:Item Text="Bonjour 1" ID="Item10" />
+                            <OfficeWebUI:Item Text="Hello 1" ID="Item11" />
+                            <OfficeWebUI:Item Text="Hi 1" ID="Item12" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+            <OfficeWebUI:Area Text="Tasks" ID="Area2" ImageUrl="~/Library/img/16/icon58.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Boite de réception">
+                        <Items>
+                            <OfficeWebUI:Item Text="Bonjour 1" ID="Item13" />
+                            <OfficeWebUI:Item Text="Hello 1" ID="Item14" />
+                            <OfficeWebUI:Item Text="Hi 1" ID="Item15" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+        </Areas>
+        <Content>                      
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+        </Content>
+    </OfficeWebUI:OfficeWorkspace>
+    
+    
+
+        
+    
+    </form>
+</body>
+</html>

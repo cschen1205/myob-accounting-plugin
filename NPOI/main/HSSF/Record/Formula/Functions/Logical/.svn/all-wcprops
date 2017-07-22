@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical
+END
+Isnontext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Isnontext.cs
+END
+Istext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Istext.cs
+END
+LogicalFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/LogicalFunction.cs
+END
+Isblank.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Isblank.cs
+END
+Isnumber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Isnumber.cs
+END
+Iserror.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Iserror.cs
+END
+Islogical.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Islogical.cs
+END
+Isref.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Isref.cs
+END
+Isna.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Logical/Isna.cs
+END

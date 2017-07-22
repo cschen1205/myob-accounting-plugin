@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<configuration>
+<startup><supportedRuntime version="v2.0.50727"/></startup>
+<runtime>
+<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.2000.0"/>
+</dependentAssembly>
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.Shared" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.2000.0"/>
+</dependentAssembly>
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.ReportSource" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.2000.0"/>
+</dependentAssembly>
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.Windows.Forms" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.2000.0"/>
+</dependentAssembly>
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.Enterprise.Framework" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.1100.0"/>
+</dependentAssembly>
+<dependentAssembly>
+<assemblyIdentity name="CrystalDecisions.Enterprise.InfoStore" publicKeyToken="692fbea5521e1304" culture=""/>
+<bindingRedirect oldVersion="14.0.2000.0" newVersion="12.0.1100.0"/>
+</dependentAssembly>
+</assemblyBinding>
+</runtime>
+</configuration>

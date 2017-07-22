@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tgvAllAccounts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="colAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="colAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="colAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="colAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="colAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tgvAllAccounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="tgvAllAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 411</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tgvAllAccounts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tgvAllAccounts.Name" xml:space="preserve">
+    <value>tgvAllAccounts</value>
+  </data>
+  <data name="&gt;&gt;tgvAllAccounts.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvAllAccounts.Parent" xml:space="preserve">
+    <value>tpAllAccounts</value>
+  </data>
+  <data name="&gt;&gt;tgvAllAccounts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpAllAccounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpAllAccounts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpAllAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpAllAccounts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpAllAccounts.Text" xml:space="preserve">
+    <value>All Accounts</value>
+  </data>
+  <data name="&gt;&gt;tpAllAccounts.Name" xml:space="preserve">
+    <value>tpAllAccounts</value>
+  </data>
+  <data name="&gt;&gt;tpAllAccounts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAllAccounts.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpAllAccounts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tgvAsset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="assetAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="assetAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="assetAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="assetAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="assetAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="assetAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="assetAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="assetAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="assetAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="assetAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvAsset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="tgvAsset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 330</value>
+  </data>
+  <data name="tgvAsset.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tgvAsset.Name" xml:space="preserve">
+    <value>tgvAsset</value>
+  </data>
+  <data name="&gt;&gt;tgvAsset.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvAsset.Parent" xml:space="preserve">
+    <value>tpAsset</value>
+  </data>
+  <data name="&gt;&gt;tgvAsset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpAsset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpAsset.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpAsset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpAsset.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpAsset.Text" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="&gt;&gt;tpAsset.Name" xml:space="preserve">
+    <value>tpAsset</value>
+  </data>
+  <data name="&gt;&gt;tpAsset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAsset.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpAsset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tgvLiability.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="liabAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="liabAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="liabAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="liabAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="liabAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="liabAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="liabAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="liabAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="liabAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="liabAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvLiability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvLiability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 336</value>
+  </data>
+  <data name="tgvLiability.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvLiability.Name" xml:space="preserve">
+    <value>tgvLiability</value>
+  </data>
+  <data name="&gt;&gt;tgvLiability.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvLiability.Parent" xml:space="preserve">
+    <value>tpLiability</value>
+  </data>
+  <data name="&gt;&gt;tgvLiability.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpLiability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpLiability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpLiability.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpLiability.Text" xml:space="preserve">
+    <value>Liability</value>
+  </data>
+  <data name="&gt;&gt;tpLiability.Name" xml:space="preserve">
+    <value>tpLiability</value>
+  </data>
+  <data name="&gt;&gt;tpLiability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpLiability.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpLiability.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tgvEquity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="equiAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="equiAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="equiAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="equiAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="equiAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="equiAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="equiAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="equiAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="equiAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="equiAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvEquity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvEquity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 357</value>
+  </data>
+  <data name="tgvEquity.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvEquity.Name" xml:space="preserve">
+    <value>tgvEquity</value>
+  </data>
+  <data name="&gt;&gt;tgvEquity.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvEquity.Parent" xml:space="preserve">
+    <value>tpEquity</value>
+  </data>
+  <data name="&gt;&gt;tgvEquity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpEquity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpEquity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpEquity.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpEquity.Text" xml:space="preserve">
+    <value>Equity</value>
+  </data>
+  <data name="&gt;&gt;tpEquity.Name" xml:space="preserve">
+    <value>tpEquity</value>
+  </data>
+  <data name="&gt;&gt;tpEquity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpEquity.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpEquity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tgvIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="incoAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="incoAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="incoAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="incoAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="incoAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="incoAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="incoAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="incoAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="incoAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="incoAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 357</value>
+  </data>
+  <data name="tgvIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvIncome.Name" xml:space="preserve">
+    <value>tgvIncome</value>
+  </data>
+  <data name="&gt;&gt;tgvIncome.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvIncome.Parent" xml:space="preserve">
+    <value>tpIncome</value>
+  </data>
+  <data name="&gt;&gt;tgvIncome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tpIncome.Text" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="&gt;&gt;tpIncome.Name" xml:space="preserve">
+    <value>tpIncome</value>
+  </data>
+  <data name="&gt;&gt;tpIncome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpIncome.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpIncome.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tgvCoS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="cosAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cosAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="cosAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cosAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="cosAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cosAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="cosAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cosAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="cosAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cosAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvCoS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvCoS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 357</value>
+  </data>
+  <data name="tgvCoS.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvCoS.Name" xml:space="preserve">
+    <value>tgvCoS</value>
+  </data>
+  <data name="&gt;&gt;tgvCoS.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvCoS.Parent" xml:space="preserve">
+    <value>tpCostOfSales</value>
+  </data>
+  <data name="&gt;&gt;tgvCoS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpCostOfSales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpCostOfSales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpCostOfSales.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tpCostOfSales.Text" xml:space="preserve">
+    <value>Cost of Sales</value>
+  </data>
+  <data name="&gt;&gt;tpCostOfSales.Name" xml:space="preserve">
+    <value>tpCostOfSales</value>
+  </data>
+  <data name="&gt;&gt;tpCostOfSales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpCostOfSales.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpCostOfSales.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tgvExpense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="expeAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="expeAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="expeAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="expeAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="expeAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="expeAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="expeAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="expeAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="expeAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="expeAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 357</value>
+  </data>
+  <data name="tgvExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvExpense.Name" xml:space="preserve">
+    <value>tgvExpense</value>
+  </data>
+  <data name="&gt;&gt;tgvExpense.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvExpense.Parent" xml:space="preserve">
+    <value>tpExpense</value>
+  </data>
+  <data name="&gt;&gt;tgvExpense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tpExpense.Text" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="&gt;&gt;tpExpense.Name" xml:space="preserve">
+    <value>tpExpense</value>
+  </data>
+  <data name="&gt;&gt;tpExpense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpExpense.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpExpense.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tgvOtherIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="oincAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oincAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="oincAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oincAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="oincAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oincAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="oincAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oincAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="oincAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oincAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvOtherIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvOtherIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 357</value>
+  </data>
+  <data name="tgvOtherIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherIncome.Name" xml:space="preserve">
+    <value>tgvOtherIncome</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherIncome.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherIncome.Parent" xml:space="preserve">
+    <value>tpOtherIncome</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherIncome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpOtherIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpOtherIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpOtherIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tpOtherIncome.Text" xml:space="preserve">
+    <value>Other Income</value>
+  </data>
+  <data name="&gt;&gt;tpOtherIncome.Name" xml:space="preserve">
+    <value>tpOtherIncome</value>
+  </data>
+  <data name="&gt;&gt;tpOtherIncome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpOtherIncome.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpOtherIncome.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tgvOtherExpense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="oexpAccountName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oexpAccountName.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <metadata name="oexpAccountType.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oexpAccountType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="oexpAccountTax.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oexpAccountTax.HeaderText" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <metadata name="oexpAccountLinked.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oexpAccountLinked.HeaderText" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <metadata name="oexpAccountBalance.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="oexpAccountBalance.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="tgvOtherExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="tgvOtherExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 336</value>
+  </data>
+  <data name="tgvOtherExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherExpense.Name" xml:space="preserve">
+    <value>tgvOtherExpense</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherExpense.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridView, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherExpense.Parent" xml:space="preserve">
+    <value>tpOtherExpense</value>
+  </data>
+  <data name="&gt;&gt;tgvOtherExpense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpOtherExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpOtherExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 421</value>
+  </data>
+  <data name="tpOtherExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tpOtherExpense.Text" xml:space="preserve">
+    <value>Other Expense</value>
+  </data>
+  <data name="&gt;&gt;tpOtherExpense.Name" xml:space="preserve">
+    <value>tpOtherExpense</value>
+  </data>
+  <data name="&gt;&gt;tpOtherExpense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpOtherExpense.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpOtherExpense.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
+  </data>
+  <data name="tc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 447</value>
+  </data>
+  <data name="tc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tc.Name" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tc.Parent" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;tc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="imgLst.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imgLst.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="gbFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnClose2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClose2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnClose2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnClose2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 4</value>
+  </data>
+  <data name="btnClose2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="btnClose2.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;btnClose2.Name" xml:space="preserve">
+    <value>btnClose2</value>
+  </data>
+  <data name="&gt;&gt;btnClose2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose2.Parent" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;btnClose2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="gbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 493</value>
+  </data>
+  <data name="gbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Name" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CZRoundedGroupBox, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 85</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 32</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPrint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 47</value>
+  </data>
+  <data name="btnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 32</value>
+  </data>
+  <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Name" xml:space="preserve">
+    <value>btnPrint</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRefresh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 9</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 32</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>852, 504</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Account View</value>
+  </data>
+  <data name="&gt;&gt;colAccountName.Name" xml:space="preserve">
+    <value>colAccountName</value>
+  </data>
+  <data name="&gt;&gt;colAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colAccountType.Name" xml:space="preserve">
+    <value>colAccountType</value>
+  </data>
+  <data name="&gt;&gt;colAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccountTax.Name" xml:space="preserve">
+    <value>colAccountTax</value>
+  </data>
+  <data name="&gt;&gt;colAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccountLinked.Name" xml:space="preserve">
+    <value>colAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;colAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccountBalance.Name" xml:space="preserve">
+    <value>colAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;colAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assetAccountName.Name" xml:space="preserve">
+    <value>assetAccountName</value>
+  </data>
+  <data name="&gt;&gt;assetAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;assetAccountType.Name" xml:space="preserve">
+    <value>assetAccountType</value>
+  </data>
+  <data name="&gt;&gt;assetAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assetAccountTax.Name" xml:space="preserve">
+    <value>assetAccountTax</value>
+  </data>
+  <data name="&gt;&gt;assetAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assetAccountLinked.Name" xml:space="preserve">
+    <value>assetAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;assetAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;assetAccountBalance.Name" xml:space="preserve">
+    <value>assetAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;assetAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;liabAccountName.Name" xml:space="preserve">
+    <value>liabAccountName</value>
+  </data>
+  <data name="&gt;&gt;liabAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;liabAccountType.Name" xml:space="preserve">
+    <value>liabAccountType</value>
+  </data>
+  <data name="&gt;&gt;liabAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;liabAccountTax.Name" xml:space="preserve">
+    <value>liabAccountTax</value>
+  </data>
+  <data name="&gt;&gt;liabAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;liabAccountLinked.Name" xml:space="preserve">
+    <value>liabAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;liabAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;liabAccountBalance.Name" xml:space="preserve">
+    <value>liabAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;liabAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;equiAccountName.Name" xml:space="preserve">
+    <value>equiAccountName</value>
+  </data>
+  <data name="&gt;&gt;equiAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;equiAccountType.Name" xml:space="preserve">
+    <value>equiAccountType</value>
+  </data>
+  <data name="&gt;&gt;equiAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;equiAccountTax.Name" xml:space="preserve">
+    <value>equiAccountTax</value>
+  </data>
+  <data name="&gt;&gt;equiAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;equiAccountLinked.Name" xml:space="preserve">
+    <value>equiAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;equiAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;equiAccountBalance.Name" xml:space="preserve">
+    <value>equiAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;equiAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incoAccountName.Name" xml:space="preserve">
+    <value>incoAccountName</value>
+  </data>
+  <data name="&gt;&gt;incoAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;incoAccountType.Name" xml:space="preserve">
+    <value>incoAccountType</value>
+  </data>
+  <data name="&gt;&gt;incoAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incoAccountTax.Name" xml:space="preserve">
+    <value>incoAccountTax</value>
+  </data>
+  <data name="&gt;&gt;incoAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incoAccountLinked.Name" xml:space="preserve">
+    <value>incoAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;incoAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incoAccountBalance.Name" xml:space="preserve">
+    <value>incoAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;incoAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cosAccountName.Name" xml:space="preserve">
+    <value>cosAccountName</value>
+  </data>
+  <data name="&gt;&gt;cosAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cosAccountType.Name" xml:space="preserve">
+    <value>cosAccountType</value>
+  </data>
+  <data name="&gt;&gt;cosAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cosAccountTax.Name" xml:space="preserve">
+    <value>cosAccountTax</value>
+  </data>
+  <data name="&gt;&gt;cosAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cosAccountLinked.Name" xml:space="preserve">
+    <value>cosAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;cosAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cosAccountBalance.Name" xml:space="preserve">
+    <value>cosAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;cosAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;expeAccountName.Name" xml:space="preserve">
+    <value>expeAccountName</value>
+  </data>
+  <data name="&gt;&gt;expeAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;expeAccountType.Name" xml:space="preserve">
+    <value>expeAccountType</value>
+  </data>
+  <data name="&gt;&gt;expeAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;expeAccountTax.Name" xml:space="preserve">
+    <value>expeAccountTax</value>
+  </data>
+  <data name="&gt;&gt;expeAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;expeAccountLinked.Name" xml:space="preserve">
+    <value>expeAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;expeAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;expeAccountBalance.Name" xml:space="preserve">
+    <value>expeAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;expeAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oincAccountName.Name" xml:space="preserve">
+    <value>oincAccountName</value>
+  </data>
+  <data name="&gt;&gt;oincAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;oincAccountType.Name" xml:space="preserve">
+    <value>oincAccountType</value>
+  </data>
+  <data name="&gt;&gt;oincAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oincAccountTax.Name" xml:space="preserve">
+    <value>oincAccountTax</value>
+  </data>
+  <data name="&gt;&gt;oincAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oincAccountLinked.Name" xml:space="preserve">
+    <value>oincAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;oincAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oincAccountBalance.Name" xml:space="preserve">
+    <value>oincAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;oincAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountName.Name" xml:space="preserve">
+    <value>oexpAccountName</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountName.Type" xml:space="preserve">
+    <value>AdvancedDataGridView.TreeGridColumn, ExpandableGridView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountType.Name" xml:space="preserve">
+    <value>oexpAccountType</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountTax.Name" xml:space="preserve">
+    <value>oexpAccountTax</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountTax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountLinked.Name" xml:space="preserve">
+    <value>oexpAccountLinked</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountLinked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountBalance.Name" xml:space="preserve">
+    <value>oexpAccountBalance</value>
+  </data>
+  <data name="&gt;&gt;oexpAccountBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLst.Name" xml:space="preserve">
+    <value>imgLst</value>
+  </data>
+  <data name="&gt;&gt;imgLst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmAccountsRegister</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DacII.WinForms.BaseView, Inventorist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

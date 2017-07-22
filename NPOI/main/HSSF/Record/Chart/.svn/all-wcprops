@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart
+END
+ChartTitleFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartTitleFormatRecord.cs
+END
+CategorySeriesAxisRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/CategorySeriesAxisRecord.cs
+END
+SeriesLabelsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesLabelsRecord.cs
+END
+AreaFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AreaFormatRecord.cs
+END
+SeriesIndexRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesIndexRecord.cs
+END
+BeginRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/BeginRecord.cs
+END
+ObjectLinkRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ObjectLinkRecord.cs
+END
+TextRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/TextRecord.cs
+END
+CatLabRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/CatLabRecord.cs
+END
+SeriesListRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesListRecord.cs
+END
+FontBasisRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/FontBasisRecord.cs
+END
+ChartFRTInfoRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartFRTInfoRecord.cs
+END
+NumberFormatIndexRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/NumberFormatIndexRecord.cs
+END
+ValueRangeRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ValueRangeRecord.cs
+END
+TickRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/TickRecord.cs
+END
+SeriesRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesRecord.cs
+END
+LegendRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/LegendRecord.cs
+END
+SeriesTextRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesTextRecord.cs
+END
+Chart3DBarShape.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/Chart3DBarShape.cs
+END
+LinkedDataRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/LinkedDataRecord.cs
+END
+DefaultDataLabelTextPropertiesRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/DefaultDataLabelTextPropertiesRecord.cs
+END
+PosRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/PosRecord.cs
+END
+BarRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/BarRecord.cs
+END
+CrtLinkRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/CrtLinkRecord.cs
+END
+DataLabelExtensionRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/DataLabelExtensionRecord.cs
+END
+AreaRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AreaRecord.cs
+END
+DatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/DatRecord.cs
+END
+ChartFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartFormatRecord.cs
+END
+AxisParentRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AxisParentRecord.cs
+END
+ChartEndObjectRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartEndObjectRecord.cs
+END
+AxisOptionsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AxisOptionsRecord.cs
+END
+SeriesChartGroupIndexRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesChartGroupIndexRecord.cs
+END
+DataFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/DataFormatRecord.cs
+END
+AxisLineFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AxisLineFormatRecord.cs
+END
+AxisUsedRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AxisUsedRecord.cs
+END
+SheetPropertiesRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SheetPropertiesRecord.cs
+END
+FrameRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/FrameRecord.cs
+END
+ChartStartBlockRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/57289/AllInOne/main/HSSF/Record/Chart/ChartStartBlockRecord.cs
+END
+SeriesToChartGroupRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/SeriesToChartGroupRecord.cs
+END
+FontIndexRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/FontIndexRecord.cs
+END
+LineFormatRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/LineFormatRecord.cs
+END
+ChartRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartRecord.cs
+END
+UnitsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/UnitsRecord.cs
+END
+ChartEndBlockRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/57289/AllInOne/main/HSSF/Record/Chart/ChartEndBlockRecord.cs
+END
+AxisRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/AxisRecord.cs
+END
+EndRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/EndRecord.cs
+END
+ChartStartObjectRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/ChartStartObjectRecord.cs
+END
+PlotAreaRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/PlotAreaRecord.cs
+END
+PlotGrowthRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Chart/PlotGrowthRecord.cs
+END

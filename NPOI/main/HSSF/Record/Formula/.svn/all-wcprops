@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula
+END
+OperationPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/OperationPtg.cs
+END
+PercentPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/PercentPtg.cs
+END
+UnaryPlusPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/UnaryPlusPtg.cs
+END
+Ref3DPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Ref3DPtg.cs
+END
+FuncVarPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/FuncVarPtg.cs
+END
+DividePtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/DividePtg.cs
+END
+IntersectionPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/IntersectionPtg.cs
+END
+ExternSheetNameResolver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ExternSheetNameResolver.cs
+END
+AreaI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AreaI.cs
+END
+StringPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/StringPtg.cs
+END
+ConcatPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ConcatPtg.cs
+END
+NameXPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/NameXPtg.cs
+END
+ArrayPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ArrayPtg.cs
+END
+FormulaShifter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/FormulaShifter.cs
+END
+MultiplyPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/MultiplyPtg.cs
+END
+ScalarConstantPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ScalarConstantPtg.cs
+END
+ControlPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ControlPtg.cs
+END
+NamePtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/NamePtg.cs
+END
+LessThanPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/LessThanPtg.cs
+END
+TblPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/TblPtg.cs
+END
+AreaNPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AreaNPtg.cs
+END
+DeletedArea3DPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/DeletedArea3DPtg.cs
+END
+ErrPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ErrPtg.cs
+END
+NotEqualPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/NotEqualPtg.cs
+END
+NumberPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/NumberPtg.cs
+END
+UnionPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/UnionPtg.cs
+END
+Area2DPtgBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Area2DPtgBase.cs
+END
+IntPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/IntPtg.cs
+END
+RefNPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/RefNPtg.cs
+END
+BoolPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/BoolPtg.cs
+END
+ExpPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ExpPtg.cs
+END
+RangePtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/RangePtg.cs
+END
+Ref2DPtgBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Ref2DPtgBase.cs
+END
+AreaPtgBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AreaPtgBase.cs
+END
+MissingArgPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/MissingArgPtg.cs
+END
+GreaterThanPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/GreaterThanPtg.cs
+END
+MemAreaPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/MemAreaPtg.cs
+END
+EqualPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/EqualPtg.cs
+END
+RefPtgBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/RefPtgBase.cs
+END
+AreaPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AreaPtg.cs
+END
+AbstractFunctionPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AbstractFunctionPtg.cs
+END
+AttrPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AttrPtg.cs
+END
+UnaryMinusPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/UnaryMinusPtg.cs
+END
+RefPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/RefPtg.cs
+END
+Ptg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Ptg.cs
+END
+GreaterEqualPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/GreaterEqualPtg.cs
+END
+AreaErrPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AreaErrPtg.cs
+END
+SheetNameFormatter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/SheetNameFormatter.cs
+END
+ParenthesisPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ParenthesisPtg.cs
+END
+RefErrorPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/RefErrorPtg.cs
+END
+MemErrPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/MemErrPtg.cs
+END
+SubtractPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/SubtractPtg.cs
+END
+AddPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/AddPtg.cs
+END
+OperandPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/OperandPtg.cs
+END
+ValueOperatorPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/ValueOperatorPtg.cs
+END
+DeletedRef3DPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/DeletedRef3DPtg.cs
+END
+MemFuncPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/MemFuncPtg.cs
+END
+FuncPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/FuncPtg.cs
+END
+PowerPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/PowerPtg.cs
+END
+LessEqualPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/LessEqualPtg.cs
+END
+Area3DPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Area3DPtg.cs
+END
+UnknownPtg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/UnknownPtg.cs
+END

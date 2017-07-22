@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage
+END
+BigBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BigBlock.cs
+END
+SmallBlockTableReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/SmallBlockTableReader.cs
+END
+SmallDocumentBlockList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/SmallDocumentBlockList.cs
+END
+BATBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BATBlock.cs
+END
+SmallDocumentBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/SmallDocumentBlock.cs
+END
+BlockWritable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BlockWritable.cs
+END
+HeaderBlockReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/HeaderBlockReader.cs
+END
+BlockList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BlockList.cs
+END
+SmallBlockTableWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/SmallBlockTableWriter.cs
+END
+DocumentBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/DocumentBlock.cs
+END
+RawDataBlockList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/RawDataBlockList.cs
+END
+BlockAllocationTableReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BlockAllocationTableReader.cs
+END
+RawDataBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/RawDataBlock.cs
+END
+PropertyBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/PropertyBlock.cs
+END
+HeaderBlockWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/HeaderBlockWriter.cs
+END
+HeaderBlockConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/HeaderBlockConstants.cs
+END
+ListManagedBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/ListManagedBlock.cs
+END
+BlockAllocationTableWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BlockAllocationTableWriter.cs
+END
+BlockListImpl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/Storage/BlockListImpl.cs
+END

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/54070/AllInOne/main/HPSF
+END
+Util.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Util.cs
+END
+TypeWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/HPSF/TypeWriter.cs
+END
+ReadingNotSupportedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HPSF/ReadingNotSupportedException.cs
+END
+HPSFException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/HPSF/HPSFException.cs
+END
+Thumbnail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Thumbnail.cs
+END
+HPSFRuntimeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/HPSF/HPSFRuntimeException.cs
+END
+CustomProperties.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54070/AllInOne/main/HPSF/CustomProperties.cs
+END
+NoPropertySetStreamException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HPSF/NoPropertySetStreamException.cs
+END
+WritingNotSupportedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/HPSF/WritingNotSupportedException.cs
+END
+PropertySet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/54070/AllInOne/main/HPSF/PropertySet.cs
+END
+SpecialPropertySet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HPSF/SpecialPropertySet.cs
+END
+DocumentSummaryInformation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HPSF/DocumentSummaryInformation.cs
+END
+Variant.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Variant.cs
+END
+Section.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Section.cs
+END
+UnexpectedPropertySetTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HPSF/UnexpectedPropertySetTypeException.cs
+END
+MutablePropertySet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HPSF/MutablePropertySet.cs
+END
+Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Constants.cs
+END
+MissingSectionException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HPSF/MissingSectionException.cs
+END
+MutableSection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/HPSF/MutableSection.cs
+END
+CustomProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/HPSF/CustomProperty.cs
+END
+IllegalVariantTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HPSF/IllegalVariantTypeException.cs
+END
+NoFormatIDException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54070/AllInOne/main/HPSF/NoFormatIDException.cs
+END
+NoSingleSectionException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HPSF/NoSingleSectionException.cs
+END
+MarkUnsupportedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HPSF/MarkUnsupportedException.cs
+END
+Property.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/54070/AllInOne/main/HPSF/Property.cs
+END
+VariantTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/HPSF/VariantTypeException.cs
+END
+PropertySetFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HPSF/PropertySetFactory.cs
+END
+UnsupportedVariantTypeException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HPSF/UnsupportedVariantTypeException.cs
+END
+MutableProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/HPSF/MutableProperty.cs
+END
+VariantSupport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/HPSF/VariantSupport.cs
+END
+SummaryInformation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/HPSF/SummaryInformation.cs
+END
+IllegalPropertySetDataException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/HPSF/IllegalPropertySetDataException.cs
+END

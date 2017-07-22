@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF
+END
+CellRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF/CellRange.cs
+END
+FontFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF/FontFormatting.cs
+END
+BorderFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF/BorderFormatting.cs
+END
+PatternFormatting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF/PatternFormatting.cs
+END
+CellRangeUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/CF/CellRangeUtil.cs
+END

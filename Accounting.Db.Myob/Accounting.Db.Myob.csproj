@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3898ABE0-5FD7-43F3-BE5F-57B57A58914E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounting.Db.Myob</RootNamespace>
+    <AssemblyName>Accounting.Db.Myob</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbEmploymentClassificationManager.cs" />
+    <Compile Include="DbEmploymentBasisManager.cs" />
+    <Compile Include="DbCustomListManager.cs" />
+    <Compile Include="DbGenderManager.cs" />
+    <Compile Include="DbItemAddOnManager.cs" />
+    <Compile Include="DbItemDataFieldEntryManager.cs" />
+    <Compile Include="DbDataFieldManager.cs" />
+    <Compile Include="DbItemSizeManager.cs" />
+    <Compile Include="DbMiscNumberManager.cs" />
+    <Compile Include="DbWageDollarHistoryManager.cs" />
+    <Compile Include="DbWageHourHistoryManager.cs" />
+    <Compile Include="DbLinkedCategoryManager.cs" />
+    <Compile Include="DbLinkedEmployeeManager.cs" />
+    <Compile Include="DbCostCentreAccountManager.cs" />
+    <Compile Include="DbCostCentreAccountActivityManager.cs" />
+    <Compile Include="DbCostCentreJournalRecordManager.cs" />
+    <Compile Include="DbCostCentreManager.cs" />
+    <Compile Include="DbRecurringItemPurchaseLineManager.cs" />
+    <Compile Include="DbRecurringMiscPurchaseLineManager.cs" />
+    <Compile Include="DbRecurringProfessionalPurchaseLineManager.cs" />
+    <Compile Include="DbRecurringPurchaseLineManager.cs" />
+    <Compile Include="DbRecurringPurchaseManager.cs" />
+    <Compile Include="DbRecurringServicePurchaseLineManager.cs" />
+    <Compile Include="DbRecurringTimeBillingPurchaseLineManager.cs" />
+    <Compile Include="DbPayrollInformationManager.cs" />
+    <Compile Include="DbBASInformationManager.cs" />
+    <Compile Include="DbPaySuperannuationLineManager.cs" />
+    <Compile Include="DbPaySuperannuationManager.cs" />
+    <Compile Include="DbPayLiabilityLineManager.cs" />
+    <Compile Include="DbSuperannuationFundManager.cs" />
+    <Compile Include="DbPayLiabilityManager.cs" />
+    <Compile Include="DbWritePaychequeLineManager.cs" />
+    <Compile Include="DbPayBasisManager.cs" />
+    <Compile Include="DbCategoryTypeManager.cs" />
+    <Compile Include="DbWritePaychequeManager.cs" />
+    <Compile Include="DbBankingDetailManager.cs" />
+    <Compile Include="DbPaymentTypeManager.cs" />
+    <Compile Include="DbBankDepositLineManager.cs" />
+    <Compile Include="DbBankDepositManager.cs" />
+    <Compile Include="DbRecurringItemSaleLineManager.cs" />
+    <Compile Include="DbRecurringMiscSaleLineManager.cs" />
+    <Compile Include="DbRecurringProfessionalSaleLineManager.cs" />
+    <Compile Include="DbRecurringSaleLineManager.cs" />
+    <Compile Include="DbRecurringSaleManager.cs" />
+    <Compile Include="DbRecurringServiceSaleLineManager.cs" />
+    <Compile Include="DbRecurringTimeBillingSaleLineManager.cs" />
+    <Compile Include="DbRecurringGeneralJournalLineManager.cs" />
+    <Compile Include="DbRecurringGeneralJournalManager.cs" />
+    <Compile Include="DbRecurringTransferMoneyManager.cs" />
+    <Compile Include="DbRecurringMoneyReceivedLineManager.cs" />
+    <Compile Include="DbRecurringMoneyReceivedManager.cs" />
+    <Compile Include="DbRecurringMoneySpentLineManager.cs" />
+    <Compile Include="DbRecurringMoneySpentManager.cs" />
+    <Compile Include="DbNumberingTypeManager.cs" />
+    <Compile Include="DbFrequencyManager.cs" />
+    <Compile Include="DbContributionTypeManager.cs" />
+    <Compile Include="DbEmployerExpenseTypeManager.cs" />
+    <Compile Include="DbCalculationMethodManager.cs" />
+    <Compile Include="DbTerminationMethodManager.cs" />
+    <Compile Include="DbDayNameManager.cs" />
+    <Compile Include="DbEmploymentStatusManager.cs" />
+    <Compile Include="DbAccountingBasisManager.cs" />
+    <Compile Include="DbImportantDatesManager.cs" />
+    <Compile Include="DbAuditTrailManager.cs" />
+    <Compile Include="DbElectronicPaymentLineManager.cs" />
+    <Compile Include="DbElectronicPaymentManager.cs" />
+    <Compile Include="DbActivitySlipInvoicedManager.cs" />
+    <Compile Include="DbWageManager.cs" />
+    <Compile Include="DbActivitySlipManager.cs" />
+    <Compile Include="DbActivitySalesHistoryManager.cs" />
+    <Compile Include="DbNegativeInventoryManager.cs" />
+    <Compile Include="DbBuildComponentManager.cs" />
+    <Compile Include="DbBuiltItemManager.cs" />
+    <Compile Include="DbItemPurchasesHistoryManager.cs" />
+    <Compile Include="DbItemSalesHistoryManager.cs" />
+    <Compile Include="DbItemOpeningBalanceManager.cs" />
+    <Compile Include="DbItemMovementManager.cs" />
+    <Compile Include="DbItemPriceManager.cs" />
+    <Compile Include="DbMoveItemManager.cs" />
+    <Compile Include="DbRoundingManager.cs" />
+    <Compile Include="DbTaxInformationConsolidationManager.cs" />
+    <Compile Include="DbTaxInformationManager.cs" />
+    <Compile Include="DbTaxCodeConsolidationManager.cs" />
+    <Compile Include="DbEmploymentCategoryManager.cs" />
+    <Compile Include="DbScheduleManager.cs" />
+    <Compile Include="DbPaymentValueTypeManager.cs" />
+    <Compile Include="DbTaxScaleManager.cs" />
+    <Compile Include="DbAlertTypeManager.cs" />
+    <Compile Include="DbAlertManager.cs" />
+    <Compile Include="DbLimitTypeManager.cs" />
+    <Compile Include="DbReportingMethodManager.cs" />
+    <Compile Include="DbReconciliationStatusManager.cs" />
+    <Compile Include="DbSalespersonHistoryManager.cs" />
+    <Compile Include="DbInventoryTransferLineManager.cs" />
+    <Compile Include="DbInventoryTransferManager.cs" />
+    <Compile Include="DbInventoryAdjustmentLineManager.cs" />
+    <Compile Include="DbInventoryAdjustmentManager.cs" />
+    <Compile Include="DbDebitRefundManager.cs" />
+    <Compile Include="DbSettledDebitLineManager.cs" />
+    <Compile Include="DbSettledDebitManager.cs" />
+    <Compile Include="DbCreditRefundManager.cs" />
+    <Compile Include="DbSettledCreditLineManager.cs" />
+    <Compile Include="DbSettledCreditManager.cs" />
+    <Compile Include="DbSupplierDepositManager.cs" />
+    <Compile Include="DbSupplierDiscountLineManager.cs" />
+    <Compile Include="DbSupplierDiscountManager.cs" />
+    <Compile Include="DbSupplierFinanceChargeManager.cs" />
+    <Compile Include="DbSupplierPaymentLineManager.cs" />
+    <Compile Include="DbSupplierPaymentManager.cs" />
+    <Compile Include="DbCustomerFinanceChargeManager.cs" />
+    <Compile Include="DbCustomerDepositManager.cs" />
+    <Compile Include="DbCustomerDiscountLineManager.cs" />
+    <Compile Include="DbCustomerDiscountManager.cs" />
+    <Compile Include="DbCustomerPaymentLineManager.cs" />
+    <Compile Include="DbCustomerPaymentManager.cs" />
+    <Compile Include="DbMoneyReceivedLineManager.cs" />
+    <Compile Include="DbMoneyReceivedManager.cs" />
+    <Compile Include="DbMoneySpentLineManager.cs" />
+    <Compile Include="DbPurchasesHistoryManager.cs" />
+    <Compile Include="DbSalesHistoryManager.cs" />
+    <Compile Include="DbCardActivityManager.cs" />
+    <Compile Include="DbPersonalCardManager.cs" />
+    <Compile Include="DbDepositStatusManager.cs" />
+    <Compile Include="DbMoneySpentManager.cs" />
+    <Compile Include="DbJobJournalRecordManager.cs" />
+    <Compile Include="DbJobBudgetManager.cs" />
+    <Compile Include="DbJobAccountActivityManager.cs" />
+    <Compile Include="DbJobAccountManager.cs" />
+    <Compile Include="DbItemLocationManager.cs" />
+    <Compile Include="DbLinkedAccountManager.cs" />
+    <Compile Include="DbAccountBudgetManager.cs" />
+    <Compile Include="DbDataFileInformationManager.cs" />
+    <Compile Include="DbAccountActivityManager.cs" />
+    <Compile Include="DbAuthUserManager.cs" />
+    <Compile Include="DbAuthRoleManager.cs" />
+    <Compile Include="DbAccountClassificationManager.cs" />
+    <Compile Include="DbAccountManager.cs" />
+    <Compile Include="DbAccountTypeManager.cs" />
+    <Compile Include="DbActivityManager.cs" />
+    <Compile Include="DbAddressManager.cs" />
+    <Compile Include="DbAuthItemManager.cs" />
+    <Compile Include="DbBillingRateUsedManager.cs" />
+    <Compile Include="DbCardManager.cs" />
+    <Compile Include="DbCardTypeManager.cs" />
+    <Compile Include="DbCashFlowClassificationManager.cs" />
+    <Compile Include="DbCommentManager.cs" />
+    <Compile Include="DbConfigManager.cs" />
+    <Compile Include="DbContactLogManager.cs" />
+    <Compile Include="DbCurrencyManager.cs" />
+    <Compile Include="DbCustomerManager.cs" />
+    <Compile Include="DbEmployeeManager.cs" />
+    <Compile Include="DbGeneralJournalLineManager.cs" />
+    <Compile Include="DbGeneralJournalManager.cs" />
+    <Compile Include="DbInvoiceDeliveryManager.cs" />
+    <Compile Include="DbInvoiceTypeManager.cs" />
+    <Compile Include="DbItemManager.cs" />
+    <Compile Include="DbItemPurchaseLineManager.cs" />
+    <Compile Include="DbItemSaleLineManager.cs" />
+    <Compile Include="DbJobManager.cs" />
+    <Compile Include="DbJournalRecordManager.cs" />
+    <Compile Include="DbJournalSetManager.cs" />
+    <Compile Include="DbJournalTypeManager.cs" />
+    <Compile Include="DbLocationManager.cs" />
+    <Compile Include="DbPaymentMethodManager.cs" />
+    <Compile Include="DbMiscPurchaseLineManager.cs" />
+    <Compile Include="DbMiscSaleLineManager.cs" />
+    <Compile Include="DbOrderStatusManager.cs" />
+    <Compile Include="DbPriceLevelManager.cs" />
+    <Compile Include="DbProfessionalPurchaseLineManager.cs" />
+    <Compile Include="DbProfessionalSaleLineManager.cs" />
+    <Compile Include="DbPurchaseLineManager.cs" />
+    <Compile Include="DbPurchaseManager.cs" />
+    <Compile Include="DbReferralSourceManager.cs" />
+    <Compile Include="DbSaleLineManager.cs" />
+    <Compile Include="DbSaleManager.cs" />
+    <Compile Include="DbServicePurchaseLineManager.cs" />
+    <Compile Include="DbServiceSaleLineManager.cs" />
+    <Compile Include="DbShippingMethodManager.cs" />
+    <Compile Include="DbStatusManager.cs" />
+    <Compile Include="DbSubAccountTypeManager.cs" />
+    <Compile Include="DbSupplierManager.cs" />
+    <Compile Include="DbTaxCodeManager.cs" />
+    <Compile Include="DbTermsManager.cs" />
+    <Compile Include="DbTermsOfPaymentManager.cs" />
+    <Compile Include="DbTimeBillingPurchaseLineManager.cs" />
+    <Compile Include="DbTimeBillingSaleLineManager.cs" />
+    <Compile Include="DbTransferMoneyManager.cs" />
+    <Compile Include="Elements\MyobDbDateTimeFieldEntry.cs" />
+    <Compile Include="MyobDbManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting\Accounting.csproj">
+      <Project>{48CE4638-1DB4-4919-914E-EF2141F393BC}</Project>
+      <Name>Accounting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:20948/AccService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost:20948/AccService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:20948/AccService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:20948/AccService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Was.Web" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SaleService_DoList_InputMessage">
+    <wsdl:part name="parameters" element="DoList" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_DoList_OutputMessage">
+    <wsdl:part name="parameters" element="DoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceStatus_InputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceStatus" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceStatus_OutputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListReferralSources_InputMessage">
+    <wsdl:part name="parameters" element="ListReferralSources" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListReferralSources_OutputMessage">
+    <wsdl:part name="parameters" element="ListReferralSourcesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSalesWithPaging_InputMessage">
+    <wsdl:part name="parameters" element="ListSalesWithPaging" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSalesWithPaging_OutputMessage">
+    <wsdl:part name="parameters" element="ListSalesWithPagingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_GetSalesCount_InputMessage">
+    <wsdl:part name="parameters" element="GetSalesCount" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_GetSalesCount_OutputMessage">
+    <wsdl:part name="parameters" element="GetSalesCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSalespersons_InputMessage">
+    <wsdl:part name="parameters" element="ListSalespersons" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSalespersons_OutputMessage">
+    <wsdl:part name="parameters" element="ListSalespersonsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListCustomers_InputMessage">
+    <wsdl:part name="parameters" element="ListCustomers" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="ListCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_RetrieveSale_InputMessage">
+    <wsdl:part name="parameters" element="RetrieveSale" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_RetrieveSale_OutputMessage">
+    <wsdl:part name="parameters" element="RetrieveSaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSales_InputMessage">
+    <wsdl:part name="parameters" element="ListSales" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListSales_OutputMessage">
+    <wsdl:part name="parameters" element="ListSalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListTaxCodes_InputMessage">
+    <wsdl:part name="parameters" element="ListTaxCodes" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListTaxCodes_OutputMessage">
+    <wsdl:part name="parameters" element="ListTaxCodesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListShippingMethods_InputMessage">
+    <wsdl:part name="parameters" element="ListShippingMethods" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListShippingMethods_OutputMessage">
+    <wsdl:part name="parameters" element="ListShippingMethodsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListComments_InputMessage">
+    <wsdl:part name="parameters" element="ListComments" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListComments_OutputMessage">
+    <wsdl:part name="parameters" element="ListCommentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceTypes_InputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceTypes" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceTypes_OutputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListCurrency_InputMessage">
+    <wsdl:part name="parameters" element="ListCurrency" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListCurrency_OutputMessage">
+    <wsdl:part name="parameters" element="ListCurrencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceDeliveries_InputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceDeliveries" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListInvoiceDeliveries_OutputMessage">
+    <wsdl:part name="parameters" element="ListInvoiceDeliveriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListTerms_InputMessage">
+    <wsdl:part name="parameters" element="ListTerms" />
+  </wsdl:message>
+  <wsdl:message name="SaleService_ListTerms_OutputMessage">
+    <wsdl:part name="parameters" element="ListTermsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SaleService">
+    <wsdl:operation name="DoList">
+      <wsdl:input wsaw:Action="urn:SaleService/DoList" message="SaleService_DoList_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/DoListResponse" message="SaleService_DoList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListInvoiceStatus">
+      <wsdl:input wsaw:Action="urn:SaleService/ListInvoiceStatus" message="SaleService_ListInvoiceStatus_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListInvoiceStatusResponse" message="SaleService_ListInvoiceStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListReferralSources">
+      <wsdl:input wsaw:Action="urn:SaleService/ListReferralSources" message="SaleService_ListReferralSources_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListReferralSourcesResponse" message="SaleService_ListReferralSources_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSalesWithPaging">
+      <wsdl:input wsaw:Action="urn:SaleService/ListSalesWithPaging" message="SaleService_ListSalesWithPaging_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListSalesWithPagingResponse" message="SaleService_ListSalesWithPaging_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesCount">
+      <wsdl:input wsaw:Action="urn:SaleService/GetSalesCount" message="SaleService_GetSalesCount_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/GetSalesCountResponse" message="SaleService_GetSalesCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSalespersons">
+      <wsdl:input wsaw:Action="urn:SaleService/ListSalespersons" message="SaleService_ListSalespersons_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListSalespersonsResponse" message="SaleService_ListSalespersons_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListCustomers">
+      <wsdl:input wsaw:Action="urn:SaleService/ListCustomers" message="SaleService_ListCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListCustomersResponse" message="SaleService_ListCustomers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveSale">
+      <wsdl:input wsaw:Action="urn:SaleService/RetrieveSale" message="SaleService_RetrieveSale_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/RetrieveSaleResponse" message="SaleService_RetrieveSale_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSales">
+      <wsdl:input wsaw:Action="urn:SaleService/ListSales" message="SaleService_ListSales_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListSalesResponse" message="SaleService_ListSales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListTaxCodes">
+      <wsdl:input wsaw:Action="urn:SaleService/ListTaxCodes" message="SaleService_ListTaxCodes_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListTaxCodesResponse" message="SaleService_ListTaxCodes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListShippingMethods">
+      <wsdl:input wsaw:Action="urn:SaleService/ListShippingMethods" message="SaleService_ListShippingMethods_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListShippingMethodsResponse" message="SaleService_ListShippingMethods_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListComments">
+      <wsdl:input wsaw:Action="urn:SaleService/ListComments" message="SaleService_ListComments_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListCommentsResponse" message="SaleService_ListComments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListInvoiceTypes">
+      <wsdl:input wsaw:Action="urn:SaleService/ListInvoiceTypes" message="SaleService_ListInvoiceTypes_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListInvoiceTypesResponse" message="SaleService_ListInvoiceTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListCurrency">
+      <wsdl:input wsaw:Action="urn:SaleService/ListCurrency" message="SaleService_ListCurrency_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListCurrencyResponse" message="SaleService_ListCurrency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListInvoiceDeliveries">
+      <wsdl:input wsaw:Action="urn:SaleService/ListInvoiceDeliveries" message="SaleService_ListInvoiceDeliveries_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListInvoiceDeliveriesResponse" message="SaleService_ListInvoiceDeliveries_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListTerms">
+      <wsdl:input wsaw:Action="urn:SaleService/ListTerms" message="SaleService_ListTerms_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SaleService/ListTermsResponse" message="SaleService_ListTerms_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

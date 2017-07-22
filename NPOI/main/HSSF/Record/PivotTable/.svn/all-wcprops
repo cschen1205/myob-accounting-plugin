@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable
+END
+ExtendedPivotTableViewFieldsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/ExtendedPivotTableViewFieldsRecord.cs
+END
+ViewFieldsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/ViewFieldsRecord.cs
+END
+ViewDefinitionRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/ViewDefinitionRecord.cs
+END
+DataItemRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/DataItemRecord.cs
+END
+StreamIDRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/StreamIDRecord.cs
+END
+PageItemRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/PageItemRecord.cs
+END
+ViewSourceRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/PivotTable/ViewSourceRecord.cs
+END

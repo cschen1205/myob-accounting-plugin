@@ -1,0 +1,887 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>SyntechRpt</RootNamespace>
+    <AssemblyName>SyntechRpt</AssemblyName>
+    <VSTO_HostDocumentName>SyntechRpt.xlsx</VSTO_HostDocumentName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OfficeApplication>Excel</OfficeApplication>
+    <ProjectGuid>{2853C80B-5274-4202-8926-FC66CE077EC4}</ProjectGuid>
+    <SolutionID>ac274ba8-22b0-4b46-b78c-52afdda560f3</SolutionID>
+    <ManifestCertificateThumbprint>A5436B5AA348213C421AD9CEA74C0B55FCBDDEBA</ManifestCertificateThumbprint>
+    <ManifestKeyFile>SyntechRpt_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl>
+    </InstallUrl>
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Office.PIARedist.2007">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Office 2007 Primary Interop Assemblies</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.3.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio Tools for the Office system 3.0 Runtime Service Pack 1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <VSTO_EmbedTypeLibraryInAssembly>false</VSTO_EmbedTypeLibraryInAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.AddIn, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Common.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccLoader.cs" />
+    <Compile Include="LightItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonSyntech.resx">
+      <DependentUpon>RibbonSyntech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sheet1.resx">
+      <DependentUpon>Sheet1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThisWorkbook.resx">
+      <DependentUpon>ThisWorkbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Cards\FrmCardRegister.resx">
+      <DependentUpon>FrmCardRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Cards\FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Cards\FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Cards\FrmSupplier.resx">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\FrmSync.resx">
+      <DependentUpon>FrmSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Email\FrmEmail.resx">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\FrmDocProps.resx">
+      <DependentUpon>FrmDocProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\FrmItemAttr.resx">
+      <DependentUpon>FrmItemAttr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmItemInformation.resx">
+      <DependentUpon>FrmItemInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmItemInformation.zh-CN.resx">
+      <DependentUpon>FrmItemInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\FrmReportItems.resx">
+      <DependentUpon>FrmReportItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmItemList.resx">
+      <DependentUpon>FrmItemList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmItemList.zh-CN.resx">
+      <DependentUpon>FrmItemList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmItemRegister.resx">
+      <DependentUpon>FrmItemRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmLocationInformation.resx">
+      <DependentUpon>FrmLocationInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Inventory\FrmLocationRegister.resx">
+      <DependentUpon>FrmLocationRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\FrmPurchaseOpenBill.resx">
+      <DependentUpon>FrmPurchaseOpenBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\FrmPurchaseOrder.resx">
+      <DependentUpon>FrmPurchaseOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\FrmPurchaseQuote.resx">
+      <DependentUpon>FrmPurchaseQuote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\FrmPurchaseRegister.resx">
+      <DependentUpon>FrmPurchaseRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\FrmItemPurchaseLine.resx">
+      <DependentUpon>FrmItemPurchaseLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\FrmMiscPurchaseLine.resx">
+      <DependentUpon>FrmMiscPurchaseLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\FrmProfessionalPurchaseLine.resx">
+      <DependentUpon>FrmProfessionalPurchaseLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\FrmServicePurchaseLine.resx">
+      <DependentUpon>FrmServicePurchaseLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\FrmTimeBillingPurchaseLine.resx">
+      <DependentUpon>FrmTimeBillingPurchaseLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\PurchaseLines\Items\FrmSearchBoughtItem.resx">
+      <DependentUpon>FrmSearchBoughtItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Purchases\Reports\FrmPurchaseOrder.resx">
+      <DependentUpon>FrmPurchaseOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\FrmSaleOpenInvoice.resx">
+      <DependentUpon>FrmSaleOpenInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\FrmSaleOrder.resx">
+      <DependentUpon>FrmSaleOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\FrmSaleQuote.resx">
+      <DependentUpon>FrmSaleQuote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\FrmSaleRegister.resx">
+      <DependentUpon>FrmSaleRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\FrmItemSaleLine.resx">
+      <DependentUpon>FrmItemSaleLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\FrmMiscSaleLine.resx">
+      <DependentUpon>FrmMiscSaleLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\FrmProfessionalSaleLine.resx">
+      <DependentUpon>FrmProfessionalSaleLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\FrmServiceSaleLine.resx">
+      <DependentUpon>FrmServiceSaleLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\FrmTimeBillingSaleLine.resx">
+      <DependentUpon>FrmTimeBillingSaleLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Sales\SaleLines\Items\FrmSearchSoldItem.resx">
+      <DependentUpon>FrmSearchSoldItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmAuthRole.resx">
+      <DependentUpon>FrmAuthRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmAuthUser.resx">
+      <DependentUpon>FrmAuthUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmEmailLogon.resx">
+      <DependentUpon>FrmEmailLogon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmMyobLogin.resx">
+      <DependentUpon>FrmMyobLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmMyobLogin.zh-CN.resx">
+      <DependentUpon>FrmMyobLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmSecurity.resx">
+      <DependentUpon>FrmSecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Security\FrmSecurity.zh-CN.resx">
+      <DependentUpon>FrmSecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Util\FrmAccountingKnowledgeBase.resx">
+      <DependentUpon>FrmAccountingKnowledgeBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Util\FrmHelp.resx">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\Util\FrmPicture.resx">
+      <DependentUpon>FrmPicture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SyntechRpt.xlsx" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RibbonSyntech.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RibbonSyntech.Designer.cs">
+      <DependentUpon>RibbonSyntech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityUtil.cs" />
+    <Compile Include="Sheet1.cs">
+      <DependentUpon>SyntechRpt.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet1.Designer.cs">
+      <DependentUpon>Sheet1.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet2.cs">
+      <DependentUpon>SyntechRpt.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet2.Designer.cs">
+      <DependentUpon>Sheet2.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet3.cs">
+      <DependentUpon>SyntechRpt.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet3.Designer.cs">
+      <DependentUpon>Sheet3.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.cs">
+      <DependentUpon>SyntechRpt.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.Designer.cs">
+      <DependentUpon>ThisWorkbook.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\SysUtil.cs" />
+    <Compile Include="WinForms\Cards\FrmCardRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmCardRegister.Designer.cs">
+      <DependentUpon>FrmCardRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmCustomer.Designer.cs">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmEmployee.Designer.cs">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Cards\FrmSupplier.Designer.cs">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\FrmSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\FrmSync.Designer.cs">
+      <DependentUpon>FrmSync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Email\FrmEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Email\FrmEmail.Designer.cs">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\FrmDocProps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\FrmDocProps.Designer.cs">
+      <DependentUpon>FrmDocProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\FrmItemAttr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\FrmItemAttr.Designer.cs">
+      <DependentUpon>FrmItemAttr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemInformation.Designer.cs">
+      <DependentUpon>FrmItemInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\FrmReportItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\FrmReportItems.Designer.cs">
+      <DependentUpon>FrmReportItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemList.Designer.cs">
+      <DependentUpon>FrmItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmItemRegister.Designer.cs">
+      <DependentUpon>FrmItemRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmLocationInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmLocationInformation.Designer.cs">
+      <DependentUpon>FrmLocationInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmLocationRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Inventory\FrmLocationRegister.Designer.cs">
+      <DependentUpon>FrmLocationRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseOpenBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseOpenBill.Designer.cs">
+      <DependentUpon>FrmPurchaseOpenBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseOrder.Designer.cs">
+      <DependentUpon>FrmPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseQuote.Designer.cs">
+      <DependentUpon>FrmPurchaseQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\FrmPurchaseRegister.Designer.cs">
+      <DependentUpon>FrmPurchaseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmItemPurchaseLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmItemPurchaseLine.Designer.cs">
+      <DependentUpon>FrmItemPurchaseLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmMiscPurchaseLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmMiscPurchaseLine.Designer.cs">
+      <DependentUpon>FrmMiscPurchaseLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmProfessionalPurchaseLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmProfessionalPurchaseLine.Designer.cs">
+      <DependentUpon>FrmProfessionalPurchaseLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmServicePurchaseLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmServicePurchaseLine.Designer.cs">
+      <DependentUpon>FrmServicePurchaseLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmTimeBillingPurchaseLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\FrmTimeBillingPurchaseLine.Designer.cs">
+      <DependentUpon>FrmTimeBillingPurchaseLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\Items\FrmSearchBoughtItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\PurchaseLines\Items\FrmSearchBoughtItem.Designer.cs">
+      <DependentUpon>FrmSearchBoughtItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Purchases\Reports\FrmPurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Purchases\Reports\FrmPurchaseOrder.Designer.cs">
+      <DependentUpon>FrmPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleOpenInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleOpenInvoice.Designer.cs">
+      <DependentUpon>FrmSaleOpenInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleOrder.Designer.cs">
+      <DependentUpon>FrmSaleOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleQuote.Designer.cs">
+      <DependentUpon>FrmSaleQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\FrmSaleRegister.Designer.cs">
+      <DependentUpon>FrmSaleRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmItemSaleLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmItemSaleLine.Designer.cs">
+      <DependentUpon>FrmItemSaleLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmMiscSaleLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmMiscSaleLine.Designer.cs">
+      <DependentUpon>FrmMiscSaleLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmProfessionalSaleLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmProfessionalSaleLine.Designer.cs">
+      <DependentUpon>FrmProfessionalSaleLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmServiceSaleLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmServiceSaleLine.Designer.cs">
+      <DependentUpon>FrmServiceSaleLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmTimeBillingSaleLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\FrmTimeBillingSaleLine.Designer.cs">
+      <DependentUpon>FrmTimeBillingSaleLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\Items\FrmSearchSoldItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Sales\SaleLines\Items\FrmSearchSoldItem.Designer.cs">
+      <DependentUpon>FrmSearchSoldItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmAuthRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmAuthRole.Designer.cs">
+      <DependentUpon>FrmAuthRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmAuthUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmAuthUser.Designer.cs">
+      <DependentUpon>FrmAuthUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmEmailLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmEmailLogon.Designer.cs">
+      <DependentUpon>FrmEmailLogon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmMyobLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmMyobLogin.designer.cs">
+      <DependentUpon>FrmMyobLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Security\FrmSecurity.designer.cs">
+      <DependentUpon>FrmSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmAccountingKnowledgeBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmAccountingKnowledgeBase.Designer.cs">
+      <DependentUpon>FrmAccountingKnowledgeBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmHelp.Designer.cs">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\Util\FrmPicture.Designer.cs">
+      <DependentUpon>FrmPicture.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThisWorkbook.Designer.xml">
+      <DependentUpon>ThisWorkbook.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet1.Designer.xml">
+      <DependentUpon>Sheet1.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet2.Designer.xml">
+      <DependentUpon>Sheet2.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sheet3.Designer.xml">
+      <DependentUpon>Sheet3.cs</DependentUpon>
+    </None>
+    <None Include="SyntechRpt_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Accounting.Bll\Accounting.Bll.csproj">
+      <Project>{770B6287-3688-4B24-B7D0-2E6002EA427A}</Project>
+      <Name>Accounting.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Accounting.Db.Im\Accounting.Db.Im.csproj">
+      <Project>{F880F3FE-9745-460E-9ED4-B20864D59103}</Project>
+      <Name>Accounting.Db.Im</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Accounting.Db.Myob\Accounting.Db.Myob.csproj">
+      <Project>{3898ABE0-5FD7-43F3-BE5F-57B57A58914E}</Project>
+      <Name>Accounting.Db.Myob</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Accounting.Db.OleDb\Accounting.Db.OleDb.csproj">
+      <Project>{E6468536-85AC-41A8-9C4C-08442D8C54F3}</Project>
+      <Name>Accounting.Db.OleDb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Accounting.Report\Accounting.Report.csproj">
+      <Project>{F730F20D-F622-41CA-9E4F-6D7F97A5E0E0}</Project>
+      <Name>Accounting.Report</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Accounting\Accounting.csproj">
+      <Project>{48CE4638-1DB4-4919-914E-EF2141F393BC}</Project>
+      <Name>Accounting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SwissArmyKnife\SwissArmyKnife.csproj">
+      <Project>{9199B8AA-4D8D-4328-AE2E-9A010303E714}</Project>
+      <Name>SwissArmyKnife</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_record24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codezone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\journal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeySecurity-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchases.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchases_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\read.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receive_item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all_cards_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_bill_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_invoice_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_order_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create_quote_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employees_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employees_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\items_list_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\items_register_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchases_register_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_register_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suppliers_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suppliers_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WinForms\Sales\Reports\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\OfficeTools\Microsoft.VisualStudio.Tools.Office.Office2007.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="SyntechRpt.xlsx" HostPackage="{B284B16A-C42C-4438-BDCD-B72F4AC43CFB}" OfficeVersion="12.0" VstxVersion="3.0" ApplicationType="XLS" Language="CS" TemplatesPath="VSTOTemplates" DebugInfoExeName="C:\Program Files (x86)\Microsoft Office\Office12\Excel.exe" DebugInfoCommandLine="&quot;[$OUTPUT]SyntechRpt.xlsx&quot;" />
+        <Host Name="Excel Document" Path=".\SyntechRpt.xlsx" GeneratedCodeNamespace="SyntechRpt" PublishedHash="FEDBF9DFB69047C294E871B9B7BD428DCA8504F7">
+          <HostItem Name="Sheet1" Code="Sheet1.cs" CanonicalName="Sheet1" PublishedHash="9B217D6957A2612441FD6CA87A201CDE1C9E2313" DisplayName="Myob" Blueprint="Sheet1.Designer.xml" GeneratedCode="Sheet1.Designer.cs" />
+          <HostItem Name="Sheet2" Code="Sheet2.cs" CanonicalName="Sheet2" PublishedHash="DE74FC43F3B86603E7CAB08544969FE1C10CF7AB" DisplayName="ItemAttr" Blueprint="Sheet2.Designer.xml" GeneratedCode="Sheet2.Designer.cs" />
+          <HostItem Name="Sheet3" Code="Sheet3.cs" CanonicalName="Sheet3" PublishedHash="4CB3B2FA7304AF7155E1862B5B65F6BC43CAB3CD" DisplayName="Help" Blueprint="Sheet3.Designer.xml" GeneratedCode="Sheet3.Designer.cs" />
+          <HostItem Name="ThisWorkbook" Code="ThisWorkbook.cs" CanonicalName="ThisWorkbook" PublishedHash="61DF9C496D0179FD43A1BA092D8F4B01F5950A8F" Blueprint="ThisWorkbook.Designer.xml" GeneratedCode="ThisWorkbook.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!--
+    To modify your build process, add your task inside one of the targets below and uncomment it.
+    Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

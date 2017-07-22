@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula
+END
+OperationEvaluatorFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/OperationEvaluatorFactory.cs
+END
+ParseNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/ParseNode.cs
+END
+WorkbookEvaluator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/WorkbookEvaluator.cs
+END
+FormulaRenderingWorkbook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaRenderingWorkbook.cs
+END
+CellEvaluationFrame.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/CellEvaluationFrame.cs
+END
+EvaluationTracker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationTracker.cs
+END
+CellCacheEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/CellCacheEntry.cs
+END
+EvaluationWorkbook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationWorkbook.cs
+END
+IEvaluationListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/IEvaluationListener.cs
+END
+PlainCellCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/PlainCellCache.cs
+END
+FormulaCellCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaCellCache.cs
+END
+FormulaRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaRenderer.cs
+END
+UserDefinedFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/UserDefinedFunction.cs
+END
+FormulaType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaType.cs
+END
+FormulaParsingWorkbook.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaParsingWorkbook.cs
+END
+EvaluationCell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationCell.cs
+END
+WorkbookDependentFormula.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/WorkbookDependentFormula.cs
+END
+FormulaCellCacheEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaCellCacheEntry.cs
+END
+ExternSheetReferenceToken.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/ExternSheetReferenceToken.cs
+END
+LazyAreaEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/LazyAreaEval.cs
+END
+IStabilityClassifier.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/IStabilityClassifier.cs
+END
+FormulaParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaParser.cs
+END
+LazyRefEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/LazyRefEval.cs
+END
+FormulaCellCacheEntrySet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaCellCacheEntrySet.cs
+END
+SheetRefEvaluator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/SheetRefEvaluator.cs
+END
+EvaluationCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationCache.cs
+END
+OperationEvaluationContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/OperationEvaluationContext.cs
+END
+EvaluationSheet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationSheet.cs
+END
+OperandClassTransformer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/OperandClassTransformer.cs
+END
+Formula.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/Formula.cs
+END
+PlainValueCellCacheEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/PlainValueCellCacheEntry.cs
+END
+CollaboratingWorkbooksEnvironment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/CollaboratingWorkbooksEnvironment.cs
+END
+EvaluationName.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/EvaluationName.cs
+END
+FormulaUsedBlankCellSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/SS/Formula/FormulaUsedBlankCellSet.cs
+END

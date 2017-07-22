@@ -1,0 +1,334 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WaoDefault.Master.cs" Inherits="Wao.WaoDefault" %>
+<%@ Register Assembly=”AjaxControlToolkit” Namespace=”AjaxControlToolkit” TagPrefix=”ajaxToolkit”%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <AjaxControlToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </AjaxControlToolkit:ToolkitScriptManager>
+
+    <OfficeWebUI:Manager ID="ManagerWao" runat="server" UITheme="Office2010Silver" IncludeJQuery="true" ChromeUI="true" />
+    
+    <div style="background: url(/library/img/apptitle.png) top center repeat-x;">
+    <OfficeWebUI:OfficeRibbon ID="OfficeRibbonWao" runat="server" ApplicationMenuColor="green" ApplicationMenuText="File" ApplicationMenuType="Backstage" ShowToggleButton="true">
+        <ApplicationMenu>
+            <BackstagePages>
+               <OfficeWebUI:BackstagePage ID="BackstagePageAccounts" runat="server" Text="Accounts" UserControl="~/Library/ascx/BackstagePage_General.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePageBanking" runat="server" Text="Banking" UserControl="~/Library/ascx/BackstagePage_Settings.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePageSales" runat="server" Text="Sales" UserControl="~/Library/ascx/BackstagePage_Resources.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePagePurchases" runat="server" Text="Purchases" UserControl="~/Library/ascx/BackstagePage_Purchases.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePageInventory" runat="server" Text="Inventory" UserControl="~/Library/ascx/BackstagePage_Resources.ascx" />
+               <OfficeWebUI:BackstagePage ID="BackstagePageCardFiles" runat="server" Text="Card Files" UserControl="~/Library/ascx/BackstagePage_Resources.ascx" />
+            </BackstagePages>
+        </ApplicationMenu>
+        <Contexts>
+            <OfficeWebUI:RibbonContext ID="RibbonContextWao" runat="server" ContextColor="transparent" Text="">
+                <Tabs>
+                    <OfficeWebUI:RibbonTab ID="RibbonTabSales" runat="server" Text="Sales">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupAllSales" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneAllSales" runat="server" Text="Zone All Sales">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemAllSales" runat="server" ImageUrl="~/library/img/48/sales.png" NavigateUrl="~/Sales/AllSales.aspx" Text="Sales Register<br>(All Sales)" ToolTip="<b>Sales Register</b><br/>List all the sales" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupSaleQuotes" runat="server" Text="Sale Quotes">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneSaleQuotes" runat="server" Text="Zone Sale Quotes">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListSaleQuotes" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Quotes" ToolTip="<b>List Quotes</b><br/>Use this option to list all the sale quotes in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateSaleQuote" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Quote" ToolTip="<b>Create Quote</b><br/>Use this option to create a new sale quote in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupSaleOrders" runat="server" Text="Sale Orders">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneSaleOrders" runat="server" Text="Zone Sale Orders">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListSaleOrders" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Orders" ToolTip="<b>List Orders</b><br/>Use this option to list all the sale order in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateSaleOrder" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Order" ToolTip="<b>Create Order</b><br/>Use this option to create a new sale order in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupOpenInvoices" runat="server" Text="Sale Open Invoices">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneOpenInvoices" runat="server" Text="Zone Sale Open Invoices">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListOpenInvoices" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Open Invoices" ToolTip="<b>List Invoices</b><br/>Use this option to list all the sale open invoices in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateOpenInvoice" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Open Invoice" ToolTip="<b>Create Invoice</b><br/>Use this option to create a new sale open invoice in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupCreditReturns" runat="server" Text="Sale Credit Returns">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneCreditReturns" runat="server" Text="Zone Sale Credit Returns">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListCreditReturns" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Credit Returns" ToolTip="<b>List Credit Returns</b><br/>Use this option to list all the sale credit returns in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateCreditReturn" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Credit Return" ToolTip="<b>Create Credit Return</b><br/>Use this option to create a new sale credit return in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupClosedInvoices" runat="server" Text="Sale Closed Invoices">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneClosedInvoices" runat="server" Text="Zone Sale Closed Invoices">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListClosedInvoices" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Closed Invoices" ToolTip="<b>List Invoices</b><br/>Use this option to list all the sale closed invoices in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateClosedInvoices" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Closed Invoice" ToolTip="<b>Create Invoice</b><br/>Use this option to create a new sale closed invoice in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                    <OfficeWebUI:RibbonTab ID="RibbonTabPurchases" runat="server" Text="Purchases">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupAllPurchases" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneAllPurchases" runat="server" Text="Zone All Purchases">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemAllPurchases" runat="server" ImageUrl="~/library/img/48/purchases.png" NavigateUrl="~/Purchases/AllPurchases.aspx" Text="Purchases Register<br>(All Purchases)" ToolTip="<b>Purchases Register</b><br/>List all the purchases" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupPurchaseCreate" runat="server" Text="Create Purchase">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZonePurchaseCreate" runat="server" Text="Zone Create Purchase">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreatePurchaseQuote" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Quote" ToolTip="<b>Create Quote</b><br/>Use this option to create a new purchase quote in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreatePurchaseOrder" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Order" ToolTip="<b>Create Order</b><br/>Use this option to create a new purchase order in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemCreateOpenBill" runat="server" ImageUrl="~/library/img/16/add.png" Text="Create Open Bill" ToolTip="<b>Create Bill</b><br/>Use this option to create a new purchase open bill in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupPurchaseOrders" runat="server" Text="Purchase Orders">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZonePurchaseOrders" runat="server" Text="Zone Purchase Orders">
+                                        <Content>
+                                            
+                                            <OfficeWebUI:MediumItem ID="MediumItemListPurchaseQuotes" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Quotes" ToolTip="<b>List Quotes</b><br/>Use this option to list all the purchase quotes in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemListPurchaseOrders" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Orders" ToolTip="<b>List Orders</b><br/>Use this option to list all the purchase order in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemListOpenBills" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Open Bills" ToolTip="<b>List Bills</b><br/>Use this option to list all the purchase open bills in the database" />
+                                            
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneDebitReturns" runat="server" Text="Zone Purchase Debit Returns">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemListDebitReturns" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Debit Returns" ToolTip="<b>List Debit Returns</b><br/>Use this option to list all the purchase debit returns in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemListClosedBills" runat="server" ImageUrl="~/library/img/16/list.png" Text="List All Closed Bills" ToolTip="<b>List Bills</b><br/>Use this option to list all the purchase closed bills in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                           
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                    <OfficeWebUI:RibbonTab ID="RibbonTabInventory" runat="server" Text="Inventory">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupInventory" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneListAllItems" runat="server" Text="Zone All Sales">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListAllItems" runat="server" ImageUrl="~/library/img/48/inventory.png" NavigateUrl="~/Sales/AllSales.aspx" Text="Items List<br>(All Items)" ToolTip="<b>Items List</b><br/>List all the items" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupItemGeneral" runat="server" Text="General">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneItemGeneral" runat="server" Text="Zone General">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemRegister" runat="server" ImageUrl="~/library/img/32/icon36_32.png" Text="Items Register" ToolTip="<b>Items Register</b><br/>Use this option to list all item registers in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemCreateItem" runat="server" ImageUrl="~/library/img/32/icon93_32.png" Text="Create Item" ToolTip="<b>Create Item</b><br/>Use this option to create a new item in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupItemsListCategory" runat="server" Text="Items List Category">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneItemsListCategory" runat="server" Text="Zone List Types">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListSoldItems" runat="server" ImageUrl="~/library/img/32/icon71_32.png" Text="Sold" ToolTip="<b>List Quotes</b><br/>Use this option to list all the sold items in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemListBoughtItems" runat="server" ImageUrl="~/library/img/32/icon62_32.png" Text="Bought" ToolTip="<b>List Quotes</b><br/>Use this option to list all the bought items in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemListInventoriedItems" runat="server" ImageUrl="~/library/img/32/icon75_32.png" Text="Inventoried" ToolTip="<b>List Quotes</b><br/>Use this option to list all the inventoried items in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                    <OfficeWebUI:RibbonTab ID="RibbonTabCardFiles" runat="server" Text="Card Files">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupCardFiles" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneListAllCards" runat="server" Text="Zone All Cards">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListAllCards" runat="server" ImageUrl="~/library/img/48/contacts.png" NavigateUrl="~/Sales/AllSales.aspx" Text="Cards List<br>(All Cards)" ToolTip="<b>Cards List</b><br/>List all the cards" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupCustomers" runat="server" Text="Customers">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneCustomers" runat="server" Text="Zone Customers">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListCustomers" runat="server" ImageUrl="~/library/img/32/icon34_32.png" Text="Gridview" ToolTip="<b>Customers List</b><br/>Use this option to list all customers in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemCreateCustomer" runat="server" ImageUrl="~/library/img/32/icon93_32.png" Text="Create" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupSuppliers" runat="server" Text="Suppliers">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneSuppliers" runat="server" Text="Zone Suppliers">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListSuppliers" runat="server" ImageUrl="~/library/img/32/icon36_32.png" Text="Gridview" ToolTip="<b>Suppliers List</b><br/>Use this option to list all suppliers in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemCreateSupplier" runat="server" ImageUrl="~/library/img/32/icon93_32.png" Text="Create" ToolTip="<b>Create Supplier</b><br/>Use this option to create a new supplier in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupEmployees" runat="server" Text="Employees">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneEmployees" runat="server" Text="Zone Employees">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListEmployees" runat="server" ImageUrl="~/library/img/32/icon48_32.png" Text="Gridview" ToolTip="<b>Employees List</b><br/>Use this option to list all employees in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemCreateEmployee" runat="server" ImageUrl="~/library/img/32/icon93_32.png" Text="Create" ToolTip="<b>Create Employee</b><br/>Use this option to create a new employee in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                    <OfficeWebUI:RibbonTab ID="RibbonTabAccounts" runat="server" Text="Accounts">
+                        <Groups>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupListAllAccounts" runat="server" Text="">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneListAllAccounts" runat="server" Text="Zone All Accounts">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItemListAllCounts" runat="server" ImageUrl="~/library/img/48/account.png" NavigateUrl="~/Sales/AllSales.aspx" Text="Accounts List<br>(All Accounts)" ToolTip="<b>Accounts List</b><br/>List all the accounts" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupAccountGeneral" runat="server" Text="General">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneAccountGeneral" runat="server" Text="Zone Account General">
+                                        <Content>
+                                            <OfficeWebUI:LargeItem ID="LargeItem1" runat="server" ImageUrl="~/library/img/32/icon48_32.png" Text="Gridview" ToolTip="<b>Employees List</b><br/>Use this option to list all employees in the database" />
+                                            <OfficeWebUI:LargeItem ID="LargeItemCreateAccount" runat="server" ImageUrl="~/library/img/32/icon93_32.png" Text="Create" ToolTip="<b>Create Employee</b><br/>Use this option to create a new employee in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroupBalanceSheetAccount" runat="server" Text="Balance Sheet">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZoneBalanceSheetAccount" runat="server" Text="Zone Balance Sheet">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItemAsset" runat="server" ImageUrl="~/library/img/16/icon47.png" Text="Assets" ToolTip="<b>Customers List</b><br/>Use this option to list all customers in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemLiabilities" runat="server" ImageUrl="~/library/img/16/icon71.png" Text="Liabilities" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItemEquity" runat="server" ImageUrl="~/library/img/16/icon49.png" Text="Equity" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                            <OfficeWebUI:RibbonGroup ID="RibbonGroup3" runat="server" Text="Profit & Loss">
+                                <Zones>
+                                    <OfficeWebUI:GroupZone ID="GroupZone3" runat="server" Text="Zone Profit & Loss">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItem1" runat="server" ImageUrl="~/library/img/16/icon61.png" Text="Income" ToolTip="<b>Customers List</b><br/>Use this option to list all customers in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem2" runat="server" ImageUrl="~/library/img/16/icon62.png" Text="Cost of Sales" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem3" runat="server" ImageUrl="~/library/img/16/icon63.png" Text="Expenses" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                        </Content>
+                                    </OfficeWebUI:GroupZone>
+                                    <OfficeWebUI:GroupZone ID="GroupZone1" runat="server" Text="Zone Profit & Loss">
+                                        <Content>
+                                            <OfficeWebUI:MediumItem ID="MediumItem4" runat="server" ImageUrl="~/library/img/16/icon64.png" Text="Other Income" ToolTip="<b>Customers List</b><br/>Use this option to list all customers in the database" />
+                                            <OfficeWebUI:MediumItem ID="MediumItem5" runat="server" ImageUrl="~/library/img/16/icon65.png" Text="Other Expenses" ToolTip="<b>Create Customer</b><br/>Use this option to create a new customer in the database" />
+                                         </Content>
+                                    </OfficeWebUI:GroupZone>  
+                                </Zones>
+                            </OfficeWebUI:RibbonGroup>
+                           
+                        </Groups>
+                    </OfficeWebUI:RibbonTab>
+                </Tabs>
+            </OfficeWebUI:RibbonContext>           
+            
+        </Contexts>
+    </OfficeWebUI:OfficeRibbon>
+    </div>
+ 
+    
+    <OfficeWebUI:OfficeWorkspace ID="WorkspaceWao" runat="server">
+        <Areas>
+            <OfficeWebUI:Area Text="Analysis" ID="Area_Analysis" ImageUrl="~/Library/img/16/icon48.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Analysis">
+                        <Items>
+                            <OfficeWebUI:Item Text="Balance Sheet" ID="Item_BalanceSheet" ImageUrl="~/library/img/16/icon137.png" NavigateUrl="~/Inbox.aspx"  />
+                            <OfficeWebUI:Item Text="Profit & Loss" ID="Item_PLStatement" ImageUrl="~/library/img/16/icon90.png" NavigateUrl="~/Calendar.aspx" />
+                            <OfficeWebUI:Item Text="Jobs" ID="Item_Jobs" ImageUrl="~/library/img/16/icon41.png" NavigateUrl="~/Docs.aspx" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+            <OfficeWebUI:Area Text="Reports" ID="Area_Reports" ImageUrl="~/Library/img/16/icon67.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Accounts">
+                        <Items>
+                            <OfficeWebUI:Item Text="Balance Sheet" ID="ItemBalanceSheet" NavigateUrl="~/Customers.aspx" />
+                            <OfficeWebUI:Item Text="Profit & Loss" ID="ItemPLStatement" NavigateUrl="~/Products.aspx" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                    <OfficeWebUI:Section Text="Projects">
+                        <Items>
+                            <OfficeWebUI:Item Text="Project Listing" ID="Item4" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+            <OfficeWebUI:Area Text="Tasks" ID="Area2" ImageUrl="~/Library/img/16/icon58.png">
+                <Sections>
+                    <OfficeWebUI:Section Text="Boite de réception">
+                        <Items>
+                            <OfficeWebUI:Item Text="Bonjour 1" ID="Item13" />
+                            <OfficeWebUI:Item Text="Hello 1" ID="Item14" />
+                            <OfficeWebUI:Item Text="Hi 1" ID="Item15" />
+                        </Items>
+                    </OfficeWebUI:Section>
+                </Sections>
+            </OfficeWebUI:Area>
+        </Areas>
+        <Content>                      
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+        </Content>
+    </OfficeWebUI:OfficeWorkspace>
+    
+    
+
+        
+    
+    </form>
+</body>
+</html>

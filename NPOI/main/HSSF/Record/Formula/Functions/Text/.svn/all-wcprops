@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text
+END
+Replace.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Replace.cs
+END
+Substitute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Substitute.cs
+END
+Trim.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Trim.cs
+END
+Upper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Upper.cs
+END
+Len.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Len.cs
+END
+Concatenate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Concatenate.cs
+END
+Exact.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Exact.cs
+END
+SearchFind.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/SearchFind.cs
+END
+LeftRight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/LeftRight.cs
+END
+Lower.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Lower.cs
+END
+Mid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/Mid.cs
+END
+TextFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Functions/Text/TextFunction.cs
+END

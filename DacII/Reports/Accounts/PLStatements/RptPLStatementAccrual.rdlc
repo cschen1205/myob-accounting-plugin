@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>b8155ffc-f452-4c38-bedf-ad1e937a0b96</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>2.5cm</RightMargin>
+  <LeftMargin>2.5cm</LeftMargin>
+  <BottomMargin>2.5cm</BottomMargin>
+  <rd:ReportID>ec9b0e2c-75c9-4f29-a48c-37450c2c1e58</rd:ReportID>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="Accounting_Report_Accounts_PLStatements_PLStatementAccrual">
+      <Fields>
+        <Field Name="CompanyAddress">
+          <DataField>CompanyAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AsOf">
+          <DataField>AsOf</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreateTime">
+          <DataField>CreateTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Accounting.Report.Accounts.PLStatements</rd:DataSetName>
+        <rd:TableName>PLStatementAccrual</rd:TableName>
+        <rd:ObjectDataSourceType>Accounting.Report.Accounts.PLStatements.PLStatementAccrual, Accounting.Report, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>16.00529cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Rectangle Name="rectangle1">
+        <ReportItems>
+          <Subreport Name="subreport1">
+            <Top>5cm</Top>
+            <ReportName>RptPLStatementLine</ReportName>
+            <ZIndex>6</ZIndex>
+            <Height>0.75cm</Height>
+          </Subreport>
+          <Line Name="line1">
+            <Top>4.75cm</Top>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <Height>0cm</Height>
+          </Line>
+          <Textbox Name="CreateTime">
+            <rd:DefaultName>CreateTime</rd:DefaultName>
+            <Top>3.75cm</Top>
+            <Width>3cm</Width>
+            <Style>
+              <Color>Navy</Color>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Height>1cm</Height>
+            <Value>=First(Fields!CreateTime.Value)</Value>
+          </Textbox>
+          <Textbox Name="AsOf">
+            <rd:DefaultName>AsOf</rd:DefaultName>
+            <Top>3cm</Top>
+            <Width>5.25cm</Width>
+            <Style>
+              <Color>DarkRed</Color>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>=First(Fields!AsOf.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox1">
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>2.25cm</Top>
+            <Width>4.75cm</Width>
+            <Style>
+              <Color>DarkRed</Color>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.25cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>Profit &amp; Loss</Value>
+          </Textbox>
+          <Textbox Name="CompanyAddress">
+            <rd:DefaultName>CompanyAddress</rd:DefaultName>
+            <Top>0.75cm</Top>
+            <Width>5.25cm</Width>
+            <Style>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5cm</Left>
+            <Height>1.5cm</Height>
+            <Value>=First(Fields!CompanyAddress.Value)</Value>
+          </Textbox>
+          <Textbox Name="CompanyName">
+            <rd:DefaultName>CompanyName</rd:DefaultName>
+            <Width>4.75cm</Width>
+            <Style>
+              <Color>#0000c0</Color>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>5.25cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>=First(Fields!CompanyName.Value)</Value>
+          </Textbox>
+        </ReportItems>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>14.5cm</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>14.61905cm</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

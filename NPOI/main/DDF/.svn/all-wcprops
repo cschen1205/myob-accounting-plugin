@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/54070/AllInOne/main/DDF
+END
+EscherSpRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherSpRecord.cs
+END
+EscherSerializationListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherSerializationListener.cs
+END
+EscherBitmapBlip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherBitmapBlip.cs
+END
+EscherBlipRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherBlipRecord.cs
+END
+EscherDgRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherDgRecord.cs
+END
+EscherProperties.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherProperties.cs
+END
+EscherMetafileBlip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherMetafileBlip.cs
+END
+EscherSimpleProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherSimpleProperty.cs
+END
+UnknownEscherRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/DDF/UnknownEscherRecord.cs
+END
+EscherBoolProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherBoolProperty.cs
+END
+EscherSplitMenuColorsRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherSplitMenuColorsRecord.cs
+END
+EscherOptRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherOptRecord.cs
+END
+EscherDump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherDump.cs
+END
+EscherRecordFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherRecordFactory.cs
+END
+EscherPictBlip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherPictBlip.cs
+END
+EscherClientAnchorRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherClientAnchorRecord.cs
+END
+EscherSpgrRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherSpgrRecord.cs
+END
+DefaultEscherRecordFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/DDF/DefaultEscherRecordFactory.cs
+END
+NullEscherSerializationListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/DDF/NullEscherSerializationListener.cs
+END
+EscherContainerRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherContainerRecord.cs
+END
+EscherShapePathProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherShapePathProperty.cs
+END
+EscherArrayProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherArrayProperty.cs
+END
+EscherProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherProperty.cs
+END
+EscherPropertyMetaData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherPropertyMetaData.cs
+END
+EscherTextboxRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherTextboxRecord.cs
+END
+EscherBlipWMFRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherBlipWMFRecord.cs
+END
+EscherDggRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherDggRecord.cs
+END
+EscherClientDataRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherClientDataRecord.cs
+END
+EscherBSERecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherBSERecord.cs
+END
+EscherPropertyFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherPropertyFactory.cs
+END
+EscherComplexProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherComplexProperty.cs
+END
+EscherChildAnchorRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherChildAnchorRecord.cs
+END
+EscherRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherRecord.cs
+END
+EscherRGBProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54070/AllInOne/main/DDF/EscherRGBProperty.cs
+END

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imglist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imglist.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA8
+        DwAAAk1TRnQBSQFMAgEBCAEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AFQAC/wHz
+        AgcC7wYHAbwC/wUAAQcE7wEcAe8B8AMABfMC9ALzAvQB8wP0AfMQkgH/AbwMMwF9Af8EAAG8AyAERgHv
+        AfACAAjzAvQB8wHyAvMB9AHzAZIOAAGSAf8BVgQzAZcBcgEtBjMB8AMAAZMCIAVGAUcBRgHvAfABAATz
+        AfQB8gHxAvAB8QHzAf8B9ALzAfQBkg4AAZIB/wFPAy0BmAL/AUkGLQG8AgABvAEgBUYDRwEXAUYB7wHw
+        BPMB8AEHAfcCkgH3Ae8B8AHzAfQC8xCSAf8BTwItAU8B8QLzAf8BAgUtAbwBAAEHA0YC/wNHAv8CFwFG
+        Ae8B9AHzAfQB8QHvAe0E9wGSAfcBvAH0AvMQAAH/AU8CAgIHArwB8AFyBQIBvAEAAW8CRgFHA/8BFwP/
+        A+MB7wL0AfIB7wn3AfEC9AMAAm4B7AoAAf8BTwECA+8B7QIHAbwBJwQCAbwBAAFvA0cBFwX/BOMB7wLz
+        AfAC9wHtBpIB9wEHAfMB9AQAAfsBAAEPAewIAAH/Ak8D7wECAXIC7wG8BAIBvAEAAW8BRwQXA/8D4wIW
+        Ae8C9AHvAe0B7we8AfcB7wHzAfQEAAMxAQAB7AcAAf8BTwECAu8DAgPvAXIDAgG8AQABbwQXBf8EFgHv
+        AvMB7wH3AfAG/wH0AvcB8wH0BAABMQL7AVkBAAHsBgAB/wFPBwID7wEnAgIBCAEAAW8CFwHjA/8BFgP/
+        ARYClAHvAfMB9AEHAZIB9wGSCPcC9AQAASoB+wH/AfsBWQEAAewFAAH/AVYHAgFyAQcC7wFJAQIBCAEA
+        AZMD4wL/AxYC/wOUAQcB8wH0AfAB9wHtCPcB8AH0AfMFAAEqAfsB/wH7AVkBAAHsBAAB/wF4AXIHTwHy
+        AfABvAEHAXIBCAIAAW8B4wUWBZQBvAEAAfIC8wG8AfcB7QGSA/cBkgH3Ae8B8gLzBwABKgL7ATEBWQH3
+        AwAB/wqYAfQB8wG8AZgBvAMAAW8DFgaUAZMCAAH0A/MBvAP3ApIB9wEHAfIC9AHzCAABKgG8Af8B+wHq
+        AwAB/wGYCAgDmAEIAZgB9AQAAW8HlAG8AwAB9ALzAvQB8gEHAu8BBwHwAfMB9APzCQABKgH7Af8B7AMA
+        Av8FmAF4BJcCcgHzAf8FAAGTBW8BkwQAAfMB9APzAfIB9APzAvQE8woAAVEBWQQAEP8QAAHyAfQC8wL0
+        AvMB9ALzAfQE8wEAAfEMCQHxAfABAAG8AQcL7wG8AfAEAAGTAW8BRgJFAUYBbwGTCAAB7wF4BFABeAHv
+        BAAB8gHzDPQB8wHyAQAB9wxyAZIBvAIAAbwBbwFGAekERQHpAUYBbwG8BAABvAF4CFABeAG8AgAB3QH/
+        AfMJtAEJAv8BGQEHAXINlwHvAQABvAFMAUYIRQFGAUwBvAIAAbwBcgFQCE8BUAFyAbwBAAEJAf8BGQmt
+        AQkC/wHdAe8IlwFWBZcBkgEAAW8CRQEkAUUBJAJFASQBRQEkAkUBbwIAAXgBUAFPA1ACmAFQAU8BUAFP
+        AVABeAEAAQkB/wHzAbQHrQG0AQkC/wHdAe8HlwGYAggBeAOXAZIB7wJFASQBSwEHAUUC6QFFAQcBSwEk
+        AkUC7wZQAvEGUAHvAQkC/wHzAQkBtAOtAbQBCQEZA/8B3QHvBZcBeAEIA/8B8wOXAZIBbwHpAkUBBwH0
+        AbwCRQG8AfQBBwJFAekBbwF4BlAC8QZQAXgBCQT/ARkDrQEZBf8B3QHvBZcBGwH2AZgBCAH/AQgDlwGS
+        A0UB6QFFAbwB9ALwAfQBvAFFAekDRQZQAXgC8gF4BlABCQX/AbQCrQb/Ad0B7wSXAfEB9AGYAVAGlwGS
+        BEUB6QFFAfAC9AHwAUUB6QRFA1ABmAHzAvIC8wLyAfMBmANQAQkE/wEJA60BCQX/Ad0B7wFyApcBCAH/
+        AQgIlwGSAUUERgFFAfAC9AHwAUUERgFFAVABVgFQAQcB8wHyAfMC9AHzAfIB8wEHAVABVgFQAQkE/wEJ
+        A60BtAX/Ad0B7wKXAXgC/wEICJcBkgFLA0YBbwHxAf8C8QH/AfEBbwNGAUsBcgF4AVcEeALzBngBcgEJ
+        BP8BCQOtAbQF/wHdAe8CeAGYAv8B8AGYB3gB9wF0Am8BRgG8Af8B8QJvAfEB/wG8AUYCbwF0ARwGeALz
+        BngBHAEJBP8BCQOtAbQF/wHdAe8DmAHxAf8BCAiYAu8EbwG8BG8BvARvAe8BBwZ4AvQGeAEHAQkE/wEJ
+        A60BtQX/Ad0B7wGYA5kCCAiZAe8BAAGTAXQDbwMWBG8BdAGTAgABHAGYBHgCCAR4AZgBHAEAAd0E/wHz
+        A7QBGQX/ARkBBw4IAQcBAAG8AW8CkwYWApMBbwG8AgABvAGYBJkCeASZARwBvAEAAfIB8wz/AvMB8AEH
+        AfML9AK8AgABvAKTBpQCkwG8BAABvAKYAQgEnwEIApgBvAMAARkMCQEZAfABAAG8DQcFAAEHBpMBBwgA
+        AQcGmAEHBAABQgFNAT4HAAE+AwABKAMAAUADAAEwAwABAQEAAQEFAAGAAQEWAAP/gQAC/wIAAfgBBwYA
+        AfABAwIAAX8B/gIAAeABAQIAAX8B/gIAAcAHAAGAAwAC/wIAAYADAAHjAf8CAAGAAwAB8AH/AgABgAMA
+        AfABfwIAAYADAAHwAT8CAAGAAwAB8AEfAgABgAMAAfgBDwIAAcABAQIAAf4BBwIAAeABAwIAAf8BBwIA
+        AfABBwIAAf8BhwIAAfgBDwIAAf8BzwIAAv8CAAGAAQABgAEAAfABDwHwAQ8CAAGAAQABwAEDAcABAwQA
+        AYABAQGAAQEEAAGAAQEBgAEBRAABgAEBAYABAQQAAYABAQGAAQEEAAHAAQMBwAEDAYABAAGAAQEB8AEP
+        AfABDws=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnPrintUsers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnPrintUsers.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnPrintUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 372</value>
+  </data>
+  <data name="btnPrintUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnPrintUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;btnPrintUsers.Name" xml:space="preserve">
+    <value>btnPrintUsers</value>
+  </data>
+  <data name="&gt;&gt;btnPrintUsers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPrintUsers.Parent" xml:space="preserve">
+    <value>tpAuthUser</value>
+  </data>
+  <data name="&gt;&gt;btnPrintUsers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDelUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnDelUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnDelUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 372</value>
+  </data>
+  <data name="btnDelUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 37</value>
+  </data>
+  <data name="btnDelUser.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnDelUser.Name" xml:space="preserve">
+    <value>btnDelUser</value>
+  </data>
+  <data name="&gt;&gt;btnDelUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDelUser.Parent" xml:space="preserve">
+    <value>tpAuthUser</value>
+  </data>
+  <data name="&gt;&gt;btnDelUser.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCreateUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCreateUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 372</value>
+  </data>
+  <data name="btnCreateUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 37</value>
+  </data>
+  <data name="btnCreateUser.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCreateUser.Name" xml:space="preserve">
+    <value>btnCreateUser</value>
+  </data>
+  <data name="&gt;&gt;btnCreateUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCreateUser.Parent" xml:space="preserve">
+    <value>tpAuthUser</value>
+  </data>
+  <data name="&gt;&gt;btnCreateUser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgvUsers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="dgvUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgvUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 360</value>
+  </data>
+  <data name="dgvUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvUsers.Name" xml:space="preserve">
+    <value>dgvUsers</value>
+  </data>
+  <data name="&gt;&gt;dgvUsers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUsers.Parent" xml:space="preserve">
+    <value>tpAuthUser</value>
+  </data>
+  <data name="&gt;&gt;dgvUsers.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tpAuthUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpAuthUser.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpAuthUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 417</value>
+  </data>
+  <data name="tpAuthUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpAuthUser.Text" xml:space="preserve">
+    <value>Auth Users</value>
+  </data>
+  <data name="&gt;&gt;tpAuthUser.Name" xml:space="preserve">
+    <value>tpAuthUser</value>
+  </data>
+  <data name="&gt;&gt;tpAuthUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAuthUser.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpAuthUser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPrintRoles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnPrintRoles.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnPrintRoles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrintRoles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 374</value>
+  </data>
+  <data name="btnPrintRoles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 37</value>
+  </data>
+  <data name="btnPrintRoles.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;btnPrintRoles.Name" xml:space="preserve">
+    <value>btnPrintRoles</value>
+  </data>
+  <data name="&gt;&gt;btnPrintRoles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPrintRoles.Parent" xml:space="preserve">
+    <value>tpAuthRole</value>
+  </data>
+  <data name="&gt;&gt;btnPrintRoles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeleteRole.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnDeleteRole.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnDeleteRole.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeleteRole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 374</value>
+  </data>
+  <data name="btnDeleteRole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 37</value>
+  </data>
+  <data name="btnDeleteRole.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteRole.Name" xml:space="preserve">
+    <value>btnDeleteRole</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteRole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteRole.Parent" xml:space="preserve">
+    <value>tpAuthRole</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteRole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCreateRole.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCreateRole.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCreateRole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 374</value>
+  </data>
+  <data name="btnCreateRole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 37</value>
+  </data>
+  <data name="btnCreateRole.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRole.Name" xml:space="preserve">
+    <value>btnCreateRole</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VistaButton, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRole.Parent" xml:space="preserve">
+    <value>tpAuthRole</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRole.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgvRoles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="dgvRoles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgvRoles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 362</value>
+  </data>
+  <data name="dgvRoles.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvRoles.Name" xml:space="preserve">
+    <value>dgvRoles</value>
+  </data>
+  <data name="&gt;&gt;dgvRoles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvRoles.Parent" xml:space="preserve">
+    <value>tpAuthRole</value>
+  </data>
+  <data name="&gt;&gt;dgvRoles.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tpAuthRole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpAuthRole.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpAuthRole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 417</value>
+  </data>
+  <data name="tpAuthRole.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpAuthRole.Text" xml:space="preserve">
+    <value>Auth Roles</value>
+  </data>
+  <data name="&gt;&gt;tpAuthRole.Name" xml:space="preserve">
+    <value>tpAuthRole</value>
+  </data>
+  <data name="&gt;&gt;tpAuthRole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAuthRole.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpAuthRole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="tc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>717, 443</value>
+  </data>
+  <data name="tc.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tc.Name" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tc.Parent" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;tc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="chkAllCustomers.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAllCustomers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAllCustomers.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="chkAllCustomers.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAllCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 35</value>
+  </data>
+  <data name="chkAllCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="chkAllCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkAllCustomers.Name" xml:space="preserve">
+    <value>chkAllCustomers</value>
+  </data>
+  <data name="&gt;&gt;chkAllCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAllCustomers.Parent" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;chkAllCustomers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 4</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 4</value>
+  </data>
+  <data name="gbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 481</value>
+  </data>
+  <data name="gbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Name" xml:space="preserve">
+    <value>gbFilter</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CZRoundedGroupBox, CustomerWinformControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>741, 497</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Security Manager</value>
+  </data>
+  <data name="&gt;&gt;imglist.Name" xml:space="preserve">
+    <value>imglist</value>
+  </data>
+  <data name="&gt;&gt;imglist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmSecurity</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DacII.WinForms.BaseView, Inventorist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

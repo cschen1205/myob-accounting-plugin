@@ -1,0 +1,96 @@
+﻿<UserControl
+    x:Class="Was.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation" 
+    xmlns:uriMapper="clr-namespace:System.Windows.Navigation;assembly=System.Windows.Controls.Navigation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+
+    <Grid x:Name="LayoutRoot" Style="{StaticResource LayoutRootGridStyle}">
+
+        <Border x:Name="ContentBorder" Style="{StaticResource ContentBorderStyle}">
+
+            <navigation:Frame x:Name="ContentFrame" Style="{StaticResource ContentFrameStyle}" 
+                              Source="/Home" Navigated="ContentFrame_Navigated" NavigationFailed="ContentFrame_NavigationFailed">
+                <navigation:Frame.UriMapper>
+                  <uriMapper:UriMapper>
+                    <uriMapper:UriMapping Uri="" MappedUri="/Views/Home.xaml"/>
+                        <uriMapper:UriMapping Uri="/Sale/{SaleID}" MappedUri="/Views/Sales/Sale.xaml?SaleID={SaleID}" />
+                        <uriMapper:UriMapping Uri="/Sales" MappedUri="/Views/Sales/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/Sales/SaleRegister" MappedUri="/Views/Sales/SalesRegister.xaml" />
+                        <uriMapper:UriMapping Uri="/Purchases" MappedUri="/Views/Purchases/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/Inventory" MappedUri="/Views/Inventory/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/Accounts" MappedUri="/Views/Accounts/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/Cards" MappedUri="/Views/Cards/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/Projects" MappedUri="/Views/Projects/Home.xaml" />
+                        <uriMapper:UriMapping Uri="/{pageName}" MappedUri="/Views/{pageName}.xaml"/>  
+                    
+                    </uriMapper:UriMapper>
+                    
+                    
+                </navigation:Frame.UriMapper>
+            </navigation:Frame>
+        </Border>
+
+        <Grid x:Name="NavigationGrid" Style="{StaticResource NavigationGridStyle}">
+
+            <Border x:Name="BrandingBorder" Style="{StaticResource BrandingBorderStyle}">
+                <StackPanel x:Name="BrandingStackPanel" Style="{StaticResource BrandingStackPanelStyle}">
+
+                    <ContentControl Style="{StaticResource LogoIcon}"/>
+                    <TextBlock x:Name="ApplicationNameTextBlock" Style="{StaticResource ApplicationNameStyle}" 
+                               Text="CodeZone Accounting"/>
+
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="LinksBorder" Style="{StaticResource LinksBorderStyle}">
+                <StackPanel x:Name="LinksStackPanel" Style="{StaticResource LinksStackPanelStyle}">
+
+                    <HyperlinkButton x:Name="Link1" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Home" TargetName="ContentFrame" Content="Home"/>
+									 
+                    <Rectangle x:Name="Divider1" Style="{StaticResource DividerStyle}"/>
+					
+                    <HyperlinkButton x:Name="Link2" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Sales" TargetName="ContentFrame" Content="Sales"/>
+
+                    <Rectangle x:Name="Divider2" Style="{StaticResource DividerStyle}"/>
+                    
+                    <HyperlinkButton x:Name="Link3" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Purchases" TargetName="ContentFrame" Content="Purchases"/>
+
+                    <Rectangle x:Name="Divider3" Style="{StaticResource DividerStyle}"/>
+                    
+                    <HyperlinkButton x:Name="Link4" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Inventory" TargetName="ContentFrame" Content="Inventory"/>
+
+                    <Rectangle x:Name="Divider4" Style="{StaticResource DividerStyle}"/>
+                    
+                    <HyperlinkButton x:Name="Link5" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Accounts" TargetName="ContentFrame" Content="Accounts"/>
+
+                    <Rectangle x:Name="Divider5" Style="{StaticResource DividerStyle}"/>
+                    
+                    <HyperlinkButton x:Name="Link6" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Cards" TargetName="ContentFrame" Content="Cards"/>
+
+                    <Rectangle x:Name="Divider6" Style="{StaticResource DividerStyle}"/>
+                    
+                    <HyperlinkButton x:Name="Link7" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/Projects" TargetName="ContentFrame" Content="Projects"/>
+
+                    <Rectangle x:Name="Divider7" Style="{StaticResource DividerStyle}"/>
+
+                    <HyperlinkButton x:Name="Link8" Style="{StaticResource LinkStyle}" 
+                                     NavigateUri="/About" TargetName="ContentFrame" Content="About"/>
+
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F730F20D-F622-41CA-9E4F-6D7F97A5E0E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounting.Report</RootNamespace>
+    <AssemblyName>Accounting.Report</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\BalanceSheets\BalanceSheetLine.cs" />
+    <Compile Include="Accounts\BalanceSheets\BalanceSheetStd.cs" />
+    <Compile Include="Accounts\PLStatements\PLStatementLine.cs" />
+    <Compile Include="Accounts\PLStatements\PLStatementAccrual.cs" />
+    <Compile Include="Card\Cards\CardListSummaryRpt.cs" />
+    <Compile Include="Customized\Purchases\ItemRpt.cs" />
+    <Compile Include="Customized\Sales\ItemRpt.cs" />
+    <Compile Include="Inventory\Items\ItemsListSummaryRpt.cs" />
+    <Compile Include="Inventory\Items\ItemsRegisterSummaryRpt.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchases\PurchasePresenter.cs" />
+    <Compile Include="ReportTemplate.cs" />
+    <Compile Include="Sales\SalePresenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.Bll\Accounting.Bll.csproj">
+      <Project>{770B6287-3688-4B24-B7D0-2E6002EA427A}</Project>
+      <Name>Accounting.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Accounting\Accounting.csproj">
+      <Project>{48CE4638-1DB4-4919-914E-EF2141F393BC}</Project>
+      <Name>Accounting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Doddle.Reporting\Doddle.Reporting.csproj">
+      <Project>{F08B2994-4D05-423E-A8FE-7D1E8A63472B}</Project>
+      <Name>Doddle.Reporting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Accounting.Report.Purchases.PurchaseOrder.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

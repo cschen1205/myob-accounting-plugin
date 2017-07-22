@@ -1,0 +1,517 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48CE4638-1DB4-4919-914E-EF2141F393BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounting</RootNamespace>
+    <AssemblyName>Accounting</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Accounts\Account.cs" />
+    <Compile Include="Core\Accounts\AccountActivity.cs" />
+    <Compile Include="Core\Accounts\AccountActivityManager.cs" />
+    <Compile Include="Core\Accounts\AccountBudget.cs" />
+    <Compile Include="Core\Accounts\AccountClassification.cs" />
+    <Compile Include="Core\Activities\ActivitySalesHistory.cs" />
+    <Compile Include="Core\Activities\ActivitySalesHistoryManager.cs" />
+    <Compile Include="Core\Activities\ActivitySlip.cs" />
+    <Compile Include="Core\Activities\ActivitySlipInvoiced.cs" />
+    <Compile Include="Core\Activities\ActivitySlipManager.cs" />
+    <Compile Include="Core\Activities\ActivitySlipInvoicedManager.cs" />
+    <Compile Include="Core\Cards\CustomerRow.cs" />
+    <Compile Include="Core\Cards\EmployeeRow.cs" />
+    <Compile Include="Core\CostCentres\CostCentreAccount.cs" />
+    <Compile Include="Core\CostCentres\CostCentreAccountManager.cs" />
+    <Compile Include="Core\CostCentres\CostCentreJournalRecord.cs" />
+    <Compile Include="Core\CostCentres\CostCentreJournalRecordManager.cs" />
+    <Compile Include="Core\CostCentres\CostCentreAccountActivity.cs" />
+    <Compile Include="Core\CostCentres\CostCentreAccountActivityManager.cs" />
+    <Compile Include="Core\CostCentres\CostCentre.cs" />
+    <Compile Include="Core\CostCentres\CostCentreManager.cs" />
+    <Compile Include="Core\Definitions\AccountingBasis.cs" />
+    <Compile Include="Core\Definitions\AccountingBasisManager.cs" />
+    <Compile Include="Core\Definitions\CalculationMethod.cs" />
+    <Compile Include="Core\Definitions\CalculationMethodManager.cs" />
+    <Compile Include="Core\Definitions\ContributionType.cs" />
+    <Compile Include="Core\Definitions\ContributionTypeManager.cs" />
+    <Compile Include="Core\Definitions\CategoryType.cs" />
+    <Compile Include="Core\Definitions\CategoryTypeManager.cs" />
+    <Compile Include="Core\Definitions\EmploymentClassification.cs" />
+    <Compile Include="Core\Definitions\EmploymentClassificationManager.cs" />
+    <Compile Include="Core\Definitions\EmploymentBasis.cs" />
+    <Compile Include="Core\Definitions\EmploymentBasisManager.cs" />
+    <Compile Include="Core\Definitions\GenderManager.cs" />
+    <Compile Include="Core\Definitions\ItemSizeManager.cs" />
+    <Compile Include="Core\Definitions\PayBasis.cs" />
+    <Compile Include="Core\Definitions\PayBasisManager.cs" />
+    <Compile Include="Core\Definitions\PaymentType.cs" />
+    <Compile Include="Core\Definitions\PaymentTypeManager.cs" />
+    <Compile Include="Core\Definitions\NumberingType.cs" />
+    <Compile Include="Core\Definitions\NumberingTypeManager.cs" />
+    <Compile Include="Core\Definitions\FrequencyManager.cs" />
+    <Compile Include="Core\Definitions\EmployerExpenseType.cs" />
+    <Compile Include="Core\Definitions\EmployerExpenseTypeManager.cs" />
+    <Compile Include="Core\Definitions\Frequency.cs" />
+    <Compile Include="Core\Definitions\ItemSize.cs" />
+    <Compile Include="Core\Definitions\TerminationMethod.cs" />
+    <Compile Include="Core\Definitions\TerminationMethodManager.cs" />
+    <Compile Include="Core\Definitions\DayName.cs" />
+    <Compile Include="Core\Definitions\DayNameManager.cs" />
+    <Compile Include="Core\Definitions\EmploymentStatus.cs" />
+    <Compile Include="Core\Definitions\EmploymentStatusManager.cs" />
+    <Compile Include="Core\Definitions\Gender.cs" />
+    <Compile Include="Core\Inventory\ItemAddOn.cs" />
+    <Compile Include="Core\Inventory\ItemAddOnManager.cs" />
+    <Compile Include="Core\Definitions\DataField.cs" />
+    <Compile Include="Core\Inventory\ItemDataFieldEntry.cs" />
+    <Compile Include="Core\Inventory\ItemDataFieldEntryManager.cs" />
+    <Compile Include="Core\Definitions\DataFieldManager.cs" />
+    <Compile Include="Core\IRecord.cs" />
+    <Compile Include="Core\IRepository.cs" />
+    <Compile Include="Core\Misc\CustomListManager.cs" />
+    <Compile Include="Core\Misc\CustomList.cs" />
+    <Compile Include="Core\Misc\MiscNumber.cs" />
+    <Compile Include="Core\Misc\Config.cs" />
+    <Compile Include="Core\Misc\MiscNumberManager.cs" />
+    <Compile Include="Core\OpResult.cs" />
+    <Compile Include="Core\RecordKeyInt.cs" />
+    <Compile Include="Core\RecordKeyString.cs" />
+    <Compile Include="Db\Elements\DbTableCommand.cs" />
+    <Compile Include="Core\Inventory\BuildComponent.cs" />
+    <Compile Include="Core\Inventory\BuildComponentManager.cs" />
+    <Compile Include="Core\Inventory\BuiltItemManager.cs" />
+    <Compile Include="Core\Cards\CardActivity.cs" />
+    <Compile Include="Core\Cards\CardActivityManager.cs" />
+    <Compile Include="Core\Cards\PersonalCard.cs" />
+    <Compile Include="Core\Cards\PersonalCardManager.cs" />
+    <Compile Include="Core\Data\Hierachy.cs" />
+    <Compile Include="Core\Accounts\AccountManager.cs" />
+    <Compile Include="Core\Data\TreeNode.cs" />
+    <Compile Include="Core\Accounts\AccountType.cs" />
+    <Compile Include="Core\Accounts\AccountTypeManager.cs" />
+    <Compile Include="Core\Accounts\AccountClassificationManager.cs" />
+    <Compile Include="Core\Accounts\CashFlowClassification.cs" />
+    <Compile Include="Core\Accounts\CashFlowClassificationManager.cs" />
+    <Compile Include="Core\Accounts\AccountBudgetManager.cs" />
+    <Compile Include="Core\Accounts\LinkedAccount.cs" />
+    <Compile Include="Core\Accounts\LinkedAccountManager.cs" />
+    <Compile Include="Core\Accounts\SubAccountTypeManager.cs" />
+    <Compile Include="Core\Accounts\SubAccountType.cs" />
+    <Compile Include="Core\Activities\Activity.cs" />
+    <Compile Include="Core\Activities\BillingRateUsed.cs" />
+    <Compile Include="Core\Activities\ActivityManager.cs" />
+    <Compile Include="Core\Activities\BillingRateUsedManager.cs" />
+    <Compile Include="Core\Cards\Address.cs" />
+    <Compile Include="Core\Cards\AddressManager.cs" />
+    <Compile Include="Core\Cards\Card.cs" />
+    <Compile Include="Core\Cards\CardManager.cs" />
+    <Compile Include="Core\Cards\CardType.cs" />
+    <Compile Include="Core\Cards\CardTypeManager.cs" />
+    <Compile Include="Core\Cards\ContactLog.cs" />
+    <Compile Include="Core\Cards\ContactLogManager.cs" />
+    <Compile Include="Core\Definitions\Alert.cs" />
+    <Compile Include="Core\Definitions\AlertManager.cs" />
+    <Compile Include="Core\Definitions\AlertType.cs" />
+    <Compile Include="Core\Definitions\AlertTypeManager.cs" />
+    <Compile Include="Core\Definitions\Rounding.cs" />
+    <Compile Include="Core\Definitions\RoundingManager.cs" />
+    <Compile Include="Core\Definitions\EmploymentCategory.cs" />
+    <Compile Include="Core\Definitions\EmploymentCategoryManager.cs" />
+    <Compile Include="Core\Definitions\Schedule.cs" />
+    <Compile Include="Core\Definitions\ScheduleManager.cs" />
+    <Compile Include="Core\Definitions\PaymentValueType.cs" />
+    <Compile Include="Core\Definitions\PaymentValueTypeManager.cs" />
+    <Compile Include="Core\Definitions\TaxScale.cs" />
+    <Compile Include="Core\Definitions\TaxScaleManager.cs" />
+    <Compile Include="Core\Definitions\LimitType.cs" />
+    <Compile Include="Core\Definitions\LimitTypeManager.cs" />
+    <Compile Include="Core\Definitions\ReconciliationStatus.cs" />
+    <Compile Include="Core\Definitions\ReconciliationStatusManager.cs" />
+    <Compile Include="Core\Definitions\ReportingMethod.cs" />
+    <Compile Include="Core\Definitions\ReportingMethodManager.cs" />
+    <Compile Include="Core\Inventory\BuiltItem.cs" />
+    <Compile Include="Core\Inventory\ItemPurchasesHistory.cs" />
+    <Compile Include="Core\Inventory\ItemPurchasesHistoryManager.cs" />
+    <Compile Include="Core\Inventory\InventoryAdjustment.cs" />
+    <Compile Include="Core\Inventory\InventoryAdjustmentLine.cs" />
+    <Compile Include="Core\Inventory\InventoryAdjustmentLineManager.cs" />
+    <Compile Include="Core\Inventory\InventoryAdjustmentManager.cs" />
+    <Compile Include="Core\Inventory\InventoryTransfer.cs" />
+    <Compile Include="Core\Inventory\InventoryTransferLine.cs" />
+    <Compile Include="Core\Inventory\InventoryTransferLineManager.cs" />
+    <Compile Include="Core\Inventory\InventoryTransferManager.cs" />
+    <Compile Include="Core\Inventory\ItemMovement.cs" />
+    <Compile Include="Core\Inventory\ItemMovementManager.cs" />
+    <Compile Include="Core\Inventory\ItemOpeningBalance.cs" />
+    <Compile Include="Core\Inventory\ItemOpeningBalanceManager.cs" />
+    <Compile Include="Core\Inventory\ItemPrice.cs" />
+    <Compile Include="Core\Inventory\ItemPriceManager.cs" />
+    <Compile Include="Core\Inventory\ItemSalesHistory.cs" />
+    <Compile Include="Core\Inventory\ItemSalesHistoryManager.cs" />
+    <Compile Include="Core\Inventory\MoveItem.cs" />
+    <Compile Include="Core\Inventory\MoveItemManager.cs" />
+    <Compile Include="Core\Inventory\NegativeInventory.cs" />
+    <Compile Include="Core\Inventory\NegativeInventoryManager.cs" />
+    <Compile Include="Core\RepositoryManager.cs" />
+    <Compile Include="Core\JournalRecords\RecurringGeneralJournal.cs" />
+    <Compile Include="Core\JournalRecords\RecurringGeneralJournalLine.cs" />
+    <Compile Include="Core\JournalRecords\RecurringGeneralJournalLineManager.cs" />
+    <Compile Include="Core\JournalRecords\RecurringGeneralJournalManager.cs" />
+    <Compile Include="Core\Misc\AuditTrail.cs" />
+    <Compile Include="Core\Misc\AuditTrailManager.cs" />
+    <Compile Include="Core\Misc\BASInformation.cs" />
+    <Compile Include="Core\Misc\BASInformationManager.cs" />
+    <Compile Include="Core\Misc\Comment.cs" />
+    <Compile Include="Core\Misc\CommentManager.cs" />
+    <Compile Include="Core\Misc\DataFileInformation.cs" />
+    <Compile Include="Core\Misc\ConfigManager.cs" />
+    <Compile Include="Core\Misc\DataFileInformationManager.cs" />
+    <Compile Include="Core\Cryptography\Cryptor.cs" />
+    <Compile Include="Core\Cryptography\CryptorDES.cs" />
+    <Compile Include="Core\Cryptography\CryptorManager.cs" />
+    <Compile Include="Core\Cryptography\CryptorUtil.cs" />
+    <Compile Include="Core\Currencies\Currency.cs" />
+    <Compile Include="Core\Currencies\CurrencyManager.cs" />
+    <Compile Include="Core\Cards\Customer.cs" />
+    <Compile Include="Core\Cards\CustomerManager.cs" />
+    <Compile Include="Core\Inventory\ItemLocation.cs" />
+    <Compile Include="Core\Inventory\ItemLocationManager.cs" />
+    <Compile Include="Core\Jobs\JobAccount.cs" />
+    <Compile Include="Core\Jobs\JobAccountActivity.cs" />
+    <Compile Include="Core\Jobs\JobAccountActivityManager.cs" />
+    <Compile Include="Core\Jobs\JobAccountManager.cs" />
+    <Compile Include="Core\Jobs\JobBudget.cs" />
+    <Compile Include="Core\Jobs\JobBudgetManager.cs" />
+    <Compile Include="Core\Jobs\JobJournalRecord.cs" />
+    <Compile Include="Core\Jobs\JobJournalRecordManager.cs" />
+    <Compile Include="Core\Misc\ImportantDates.cs" />
+    <Compile Include="Core\Misc\ImportantDatesManager.cs" />
+    <Compile Include="Core\Misc\PayrollInformation.cs" />
+    <Compile Include="Core\Misc\PayrollInformationManager.cs" />
+    <Compile Include="Core\Enumeration\Month.cs" />
+    <Compile Include="Core\Misc\PaymentMethod.cs" />
+    <Compile Include="Core\Misc\PaymentMethodManager.cs" />
+    <Compile Include="Core\Payroll\BankingDetail.cs" />
+    <Compile Include="Core\Payroll\BankingDetailManager.cs" />
+    <Compile Include="Core\Payroll\WageDollarHistory.cs" />
+    <Compile Include="Core\Payroll\WageDollarHistoryManager.cs" />
+    <Compile Include="Core\Payroll\WageHourHistory.cs" />
+    <Compile Include="Core\Payroll\WageHourHistoryManager.cs" />
+    <Compile Include="Core\Payroll\LinkedCategory.cs" />
+    <Compile Include="Core\Payroll\LinkedCategoryManager.cs" />
+    <Compile Include="Core\Payroll\LinkedEmployeeManager.cs" />
+    <Compile Include="Core\Payroll\LinkedEmployee.cs" />
+    <Compile Include="Core\Payroll\SuperannuationFund.cs" />
+    <Compile Include="Core\Payroll\SuperannuationFundManager.cs" />
+    <Compile Include="Core\Payroll\Superannuation.cs" />
+    <Compile Include="Core\Payroll\SuperannuationManager.cs" />
+    <Compile Include="Core\Payroll\Wage.cs" />
+    <Compile Include="Core\Payroll\WageManager.cs" />
+    <Compile Include="Core\Purchases\RecurringItemPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringItemPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\RecurringMiscPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringMiscPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\RecurringProfessionalPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringProfessionalPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\RecurringPurchase.cs" />
+    <Compile Include="Core\Purchases\RecurringPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\RecurringPurchaseManager.cs" />
+    <Compile Include="Core\Purchases\RecurringServicePurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringServicePurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\RecurringTimeBillingPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\RecurringTimeBillingPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\DebitRefund.cs" />
+    <Compile Include="Core\Purchases\DebitRefundManager.cs" />
+    <Compile Include="Core\Purchases\SettledDebit.cs" />
+    <Compile Include="Core\Purchases\SettledDebitLine.cs" />
+    <Compile Include="Core\Purchases\SettledDebitLineManager.cs" />
+    <Compile Include="Core\Purchases\SettledDebitManager.cs" />
+    <Compile Include="Core\Purchases\SupplierDeposit.cs" />
+    <Compile Include="Core\Purchases\SupplierDepositManager.cs" />
+    <Compile Include="Core\Purchases\SupplierDiscount.cs" />
+    <Compile Include="Core\Purchases\SupplierDiscountLine.cs" />
+    <Compile Include="Core\Purchases\SupplierDiscountLineManager.cs" />
+    <Compile Include="Core\Purchases\SupplierDiscountManager.cs" />
+    <Compile Include="Core\Purchases\SupplierFinanceCharge.cs" />
+    <Compile Include="Core\Purchases\SupplierFinanceChargeManager.cs" />
+    <Compile Include="Core\Purchases\SupplierPayment.cs" />
+    <Compile Include="Core\Purchases\SupplierPaymentLine.cs" />
+    <Compile Include="Core\Purchases\SupplierPaymentLineManager.cs" />
+    <Compile Include="Core\Purchases\SupplierPaymentManager.cs" />
+    <Compile Include="Core\Purchases\PurchasesHistory.cs" />
+    <Compile Include="Core\Purchases\PurchasesHistoryManager.cs" />
+    <Compile Include="Core\RecurringEntity.cs" />
+    <Compile Include="Core\RecurringEntityManager.cs" />
+    <Compile Include="Core\Sales\SaleRow.cs" />
+    <Compile Include="Core\Sales\RecurringSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringMiscSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringMiscSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringProfessionalSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringProfessionalSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringServiceSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringServiceSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringTimeBillingSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringTimeBillingSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringItemSaleLine.cs" />
+    <Compile Include="Core\Sales\RecurringItemSaleLineManager.cs" />
+    <Compile Include="Core\Sales\RecurringSaleManager.cs" />
+    <Compile Include="Core\Sales\RecurringSale.cs" />
+    <Compile Include="Core\Sales\CreditRefund.cs" />
+    <Compile Include="Core\Sales\CreditRefundManager.cs" />
+    <Compile Include="Core\Sales\CustomerFinanceChargeManager.cs" />
+    <Compile Include="Core\Sales\CustomerDeposit.cs" />
+    <Compile Include="Core\Sales\CustomerDepositManager.cs" />
+    <Compile Include="Core\Sales\CustomerDiscount.cs" />
+    <Compile Include="Core\Sales\CustomerDiscountLine.cs" />
+    <Compile Include="Core\Sales\CustomerDiscountLineManager.cs" />
+    <Compile Include="Core\Sales\CustomerDiscountManager.cs" />
+    <Compile Include="Core\Sales\CustomerFinanceCharge.cs" />
+    <Compile Include="Core\Sales\CustomerPayment.cs" />
+    <Compile Include="Core\Sales\CustomerPaymentLine.cs" />
+    <Compile Include="Core\Sales\CustomerPaymentLineManager.cs" />
+    <Compile Include="Core\Sales\CustomerPaymentManager.cs" />
+    <Compile Include="Core\Sales\SalesHistory.cs" />
+    <Compile Include="Core\Sales\SalesHistoryManager.cs" />
+    <Compile Include="Core\Sales\SalespersonHistoryManager.cs" />
+    <Compile Include="Core\Sales\SalespersonHistory.cs" />
+    <Compile Include="Core\Sales\SettledCredit.cs" />
+    <Compile Include="Core\Sales\SettledCreditLine.cs" />
+    <Compile Include="Core\Sales\SettledCreditLineManager.cs" />
+    <Compile Include="Core\Sales\SettledCreditManager.cs" />
+    <Compile Include="Core\Security\AuthItemManager.cs" />
+    <Compile Include="Core\Security\AuthUserManager.cs" />
+    <Compile Include="Core\Security\AuthRoleManager.cs" />
+    <Compile Include="Core\Security\AuthUser.cs" />
+    <Compile Include="Core\Definitions\DepositStatus.cs" />
+    <Compile Include="Core\Definitions\DepositStatusManager.cs" />
+    <Compile Include="Core\TaxCodes\TaxCodeConsolidation.cs" />
+    <Compile Include="Core\TaxCodes\TaxCodeConsolidationManager.cs" />
+    <Compile Include="Core\TaxCodes\TaxInformation.cs" />
+    <Compile Include="Core\TaxCodes\TaxInformationConsolidation.cs" />
+    <Compile Include="Core\TaxCodes\TaxInformationConsolidationManager.cs" />
+    <Compile Include="Core\TaxCodes\TaxInformationManager.cs" />
+    <Compile Include="Core\Transactions\BankDeposit.cs" />
+    <Compile Include="Core\Transactions\BankDepositLine.cs" />
+    <Compile Include="Core\Transactions\BankDepositLineManager.cs" />
+    <Compile Include="Core\Transactions\BankDepositManager.cs" />
+    <Compile Include="Core\Transactions\PaySuperannuationLine.cs" />
+    <Compile Include="Core\Transactions\PaySuperannuationLineManager.cs" />
+    <Compile Include="Core\Transactions\PayLiability.cs" />
+    <Compile Include="Core\Transactions\PayLiabilityLine.cs" />
+    <Compile Include="Core\Transactions\PayLiabilityLineManager.cs" />
+    <Compile Include="Core\Transactions\PayLiabilityManager.cs" />
+    <Compile Include="Core\Transactions\PaySuperannuation.cs" />
+    <Compile Include="Core\Transactions\PaySuperannuationManager.cs" />
+    <Compile Include="Core\Transactions\RecurringTransferMoney.cs" />
+    <Compile Include="Core\Transactions\RecurringTransferMoneyManager.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneyReceived.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneyReceivedLine.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneyReceivedLineManager.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneyReceivedManager.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneySpentLine.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneySpentLineManager.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneySpentManager.cs" />
+    <Compile Include="Core\Transactions\ElectronicPaymentLineManager.cs" />
+    <Compile Include="Core\Transactions\ElectronicPayment.cs" />
+    <Compile Include="Core\Transactions\ElectronicPaymentLine.cs" />
+    <Compile Include="Core\Transactions\ElectronicPaymentManager.cs" />
+    <Compile Include="Core\Transactions\MoneyReceivedLine.cs" />
+    <Compile Include="Core\Transactions\MoneyReceivedLineManager.cs" />
+    <Compile Include="Core\Transactions\MoneyReceivedManager.cs" />
+    <Compile Include="Core\Transactions\MoneyReceived.cs" />
+    <Compile Include="Core\Transactions\MoneySpent.cs" />
+    <Compile Include="Core\Transactions\MoneySpentLine.cs" />
+    <Compile Include="Core\Transactions\MoneySpentLineManager.cs" />
+    <Compile Include="Core\Transactions\MoneySpentManager.cs" />
+    <Compile Include="Core\Transactions\RecurringMoneySpent.cs" />
+    <Compile Include="Core\Transactions\WritePaycheque.cs" />
+    <Compile Include="Core\Transactions\WritePaychequeLine.cs" />
+    <Compile Include="Core\Transactions\WritePaychequeLineManager.cs" />
+    <Compile Include="Core\Transactions\WritePaychequeManager.cs" />
+    <Compile Include="Db\Elements\DbAutoIntFieldEntry.cs" />
+    <Compile Include="Db\Elements\DbDropTableStatement.cs" />
+    <Compile Include="Db\Elements\DbGenerateTableStatement.cs" />
+    <Compile Include="Db\Elements\DbDeleteStatement.cs" />
+    <Compile Include="Db\Elements\DbSelectLastInsertIdStatement.cs" />
+    <Compile Include="Db\Elements\DbSelectTableCountStatement.cs" />
+    <Compile Include="Db\Elements\DbUpdateStatement.cs" />
+    <Compile Include="Db\Elements\DbStatement.cs" />
+    <Compile Include="Db\Elements\DbColumn.cs" />
+    <Compile Include="Db\Elements\DbCurrencyColumn.cs" />
+    <Compile Include="Db\Elements\DbElement.cs" />
+    <Compile Include="Db\Elements\DbInsertStatement.cs" />
+    <Compile Include="Db\Elements\DbJoin.cs" />
+    <Compile Include="Db\Elements\DbCriteria.cs" />
+    <Compile Include="Db\Elements\DbOrderBy.cs" />
+    <Compile Include="Db\Elements\DbSelectStatement.cs" />
+    <Compile Include="Core\EntityBuilder.cs" />
+    <Compile Include="Db\Elements\DbDateTimeFieldEntry.cs" />
+    <Compile Include="Db\Elements\DbDoubleFieldEntry.cs" />
+    <Compile Include="Core\Cards\Employee.cs" />
+    <Compile Include="Core\Cards\EmployeeManager.cs" />
+    <Compile Include="Core\Entity.cs" />
+    <Compile Include="Core\EntityManager.cs" />
+    <Compile Include="Db\Elements\DbFieldEntry.cs" />
+    <Compile Include="Core\JournalRecords\GeneralJournalLineManager.cs" />
+    <Compile Include="Core\JournalRecords\GeneralJournal.cs" />
+    <Compile Include="Core\JournalRecords\GeneralJournalLine.cs" />
+    <Compile Include="Core\JournalRecords\GeneralJournalManager.cs" />
+    <Compile Include="Db\Elements\DbIntFieldEntry.cs" />
+    <Compile Include="Core\Definitions\InvoiceDelivery.cs" />
+    <Compile Include="Core\Definitions\InvoiceDeliveryManager.cs" />
+    <Compile Include="Core\Definitions\InvoiceType.cs" />
+    <Compile Include="Core\Definitions\InvoiceTypeManager.cs" />
+    <Compile Include="Core\Inventory\Item.cs" />
+    <Compile Include="Core\Inventory\ItemManager.cs" />
+    <Compile Include="Core\Jobs\JobManager.cs" />
+    <Compile Include="Core\Jobs\Job.cs" />
+    <Compile Include="Core\JournalRecords\JournalSource.cs" />
+    <Compile Include="Core\JournalRecords\JournalTypeManager.cs" />
+    <Compile Include="Core\JournalRecords\JournalSetManager.cs" />
+    <Compile Include="Core\JournalRecords\JournalRecordManager.cs" />
+    <Compile Include="Core\JournalRecords\JournalRecord.cs" />
+    <Compile Include="Core\JournalRecords\JournalSet.cs" />
+    <Compile Include="Core\JournalRecords\JournalType.cs" />
+    <Compile Include="Core\Inventory\Location.cs" />
+    <Compile Include="Core\Inventory\LocationManager.cs" />
+    <Compile Include="Core\Definitions\OrderStatusManager.cs" />
+    <Compile Include="Core\Definitions\OrderStatus.cs" />
+    <Compile Include="Core\Definitions\PriceLevel.cs" />
+    <Compile Include="Core\Definitions\PriceLevelManager.cs" />
+    <Compile Include="Core\Purchases\ItemPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\ItemPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\MiscPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\MiscPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\ProfessionalPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\ProfessionalPurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\Purchase.cs" />
+    <Compile Include="Core\Purchases\PurchaseLine.cs" />
+    <Compile Include="Core\Purchases\PurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\PurchaseManager.cs" />
+    <Compile Include="Core\Purchases\ServicePurchaseLine.cs" />
+    <Compile Include="Core\Purchases\ServicePurchaseLineManager.cs" />
+    <Compile Include="Core\Purchases\TimeBillingPurchaseLine.cs" />
+    <Compile Include="Core\Purchases\TimeBillingPurchaseLineManager.cs" />
+    <Compile Include="Core\Sales\ItemSaleLine.cs" />
+    <Compile Include="Core\Sales\ItemSaleLineManager.cs" />
+    <Compile Include="Core\Sales\MiscSaleLine.cs" />
+    <Compile Include="Core\Sales\MiscSaleLineManager.cs" />
+    <Compile Include="Core\Sales\ProfessionalSaleLine.cs" />
+    <Compile Include="Core\Sales\ProfessionalSaleLineManager.cs" />
+    <Compile Include="Core\Sales\ReferralSource.cs" />
+    <Compile Include="Core\Sales\ReferralSourceManager.cs" />
+    <Compile Include="Core\Sales\Sale.cs" />
+    <Compile Include="Core\Sales\SaleLine.cs" />
+    <Compile Include="Core\Sales\SaleLineManager.cs" />
+    <Compile Include="Core\Sales\SaleManager.cs" />
+    <Compile Include="Core\Sales\ServiceSaleLine.cs" />
+    <Compile Include="Core\Sales\ServiceSaleLineManager.cs" />
+    <Compile Include="Core\Sales\TimeBillingSaleLine.cs" />
+    <Compile Include="Core\Sales\TimeBillingSaleLineManager.cs" />
+    <Compile Include="Core\ShippingMethods\ShippingMethod.cs" />
+    <Compile Include="Core\ShippingMethods\ShippingMethodManager.cs" />
+    <Compile Include="Core\Definitions\Status.cs" />
+    <Compile Include="Core\Definitions\StatusManager.cs" />
+    <Compile Include="Db\Elements\DbStringFieldEntry.cs" />
+    <Compile Include="Core\Cards\Supplier.cs" />
+    <Compile Include="Core\Cards\SupplierManager.cs" />
+    <Compile Include="Core\TaxCodes\TaxCode.cs" />
+    <Compile Include="Core\TaxCodes\TaxCodeManager.cs" />
+    <Compile Include="Core\Terms\Terms.cs" />
+    <Compile Include="Core\Terms\TermsManager.cs" />
+    <Compile Include="Core\Terms\TermsOfPayment.cs" />
+    <Compile Include="Core\Terms\TermsOfPaymentManager.cs" />
+    <Compile Include="Core\Transactions\TransferMoney.cs" />
+    <Compile Include="Core\Transactions\TransferMoneyManager.cs" />
+    <Compile Include="Db\Elements\SqlFieldAlias.cs" />
+    <Compile Include="Db\Elements\DbExpression.cs" />
+    <Compile Include="Db\DbManager.cs" />
+    <Compile Include="Help\AccountingDefinition\Definition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\Security\AuthItem.cs" />
+    <Compile Include="Core\Security\AuthRole.cs" />
+    <Compile Include="Core\RecurringEntityStrategy.cs" />
+    <Compile Include="Util\ILogger.cs" />
+    <Compile Include="Util\AppEnv.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

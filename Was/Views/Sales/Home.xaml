@@ -1,0 +1,96 @@
+﻿<navigation:Page x:Class="Was.Views.Sales.Home" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="Home Page">
+    <Grid x:Name="LayoutRoot">
+        <Grid Margin="2" MaxWidth="600" MaxHeight="400" MinWidth="540" MinHeight="360" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="36" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect Color="Gray"
+                      Opacity=".50"
+                      ShadowDepth="16" />
+            </Grid.Effect>
+            <Border HorizontalAlignment="Stretch" 
+                Margin="0,0,0,0" 
+                VerticalAlignment="Stretch" 
+                CornerRadius="5,5,0,0" 
+                BorderThickness="2,2,2,0" 
+                >
+                <Border.Background>
+                    <LinearGradientBrush MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Color="Gray" Offset="0" />
+                            <GradientStop Color="#FF484848" Offset="1" />
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Border.BorderBrush>
+                    <LinearGradientBrush MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Color="Gray" Offset="0" />
+                            <GradientStop Color="#FF484848" Offset="1" />
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <StackPanel Margin="8, 4, 4, 4" x:Name="BrandingStackPanel" Style="{StaticResource BrandingStackPanelStyle}">
+                <ContentControl Style="{StaticResource LogoIcon}"/>
+                <TextBlock Foreground="White"
+                           FontSize="14"
+                           FontWeight="Bold"
+                           
+                           VerticalAlignment="Center"
+                           Text="Sales: Select an Action to Execute" />
+               </StackPanel>
+            </Border>
+            <Border Margin="0,0,0,0" CornerRadius="0,0,5,5" 
+                BorderBrush="#FF484848" BorderThickness="2" 
+                Grid.Row="1" Padding="3,3,3,3" x:Name="BottomBorder" 
+                Background="Beige">
+                <Grid Margin="10,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.279*" />
+                    <ColumnDefinition Width="0.121*"/>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="0.2*" />
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="0" Grid.Column="1" Grid.Row="4" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center"/>
+                    <Button x:Name="BtnSalesRegister" Click="BtnSalesRegister_Click" Grid.Column="2" Grid.Row="0" Content="Sales Register" RenderTransformOrigin="0.886,-0.152" VerticalAlignment="Center" Height="33"/>
+                    <Button x:Name="BtnEnterSales" Grid.Column="2" Grid.Row="2" Height="33" Content="Enter Sales" RenderTransformOrigin="0.886,-0.152" Margin="0" VerticalAlignment="Center"/>
+                    <Button x:Name="BtnPrintEmailInvoices" Grid.Column="2" Grid.Row="4" Height="33" VerticalAlignment="Center" Content="Print/Email Invoices" RenderTransformOrigin="0.886,-0.152" Margin="-20,0"/>
+                    <Button x:Name="BtnTransactionJournals" Grid.Column="2" Grid.Row="6" Height="33" VerticalAlignment="Center" Content="Transaction Journl" RenderTransformOrigin="0.886,-0.152" Margin="-10,0"/>
+                    <Border Margin="0" Width="2" Grid.Column="2" Grid.Row="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Border Margin="0" Width="2" Grid.Column="2" Grid.Row="3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Border Margin="0" Width="2" Grid.Column="2" Grid.Row="5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Button x:Name="BtnReceivePayments" Grid.Column="4" Grid.Row="2" Height="33" Content="Receive Payments" RenderTransformOrigin="0.886,-0.152" Margin="0" VerticalAlignment="Center" />
+                    <Button x:Name="BtnPrintReceipts" Grid.Column="4" Grid.Row="4" Content="Print Receipts" RenderTransformOrigin="0.886,-0.152" Margin="0" VerticalAlignment="Center" Height="33"/>
+                    <Border Margin="0" Width="2" Grid.Column="4" Grid.Row="3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Border Margin="0" Grid.Column="3" Grid.Row="2" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center"/>
+                    <Border Margin="0" Width="2" Grid.Column="4" Grid.Row="5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Border Margin="0,0,0,21" Width="2" Grid.Column="4" Grid.Row="6" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center"/>
+                    <Border Margin="14,0,58,0" Grid.Column="3" Grid.Row="6" BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" VerticalAlignment="Center"/>
+                	<Border Height="4" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="4" Grid.Column="4" Grid.Row="6" Background="Black" BorderBrush="Black" BorderThickness="1"/>
+                	<Button x:Name="BtnEmailPrintStatements" Grid.Row="4" Content="Print/Email Statements" RenderTransformOrigin="0.886,-0.152" Margin="0" VerticalAlignment="Center" Height="33"/>
+                </Grid>
+            </Border>
+        </Grid>
+        
+    </Grid>
+</navigation:Page>

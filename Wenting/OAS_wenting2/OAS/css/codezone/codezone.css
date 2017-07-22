@@ -1,0 +1,47 @@
+﻿body
+{
+	background-color:#000;
+}
+
+#content
+{
+	border: solid 1px #000;
+	margin: 10px;
+}
+
+#topmenu
+{
+	background: #cccccc url(../themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+}
+
+.topmenuitem
+{
+	margin: 18px;
+	background-color: #000;
+	color: #ccc;
+	text-align:center;
+	padding: 10px;
+	margin: 0px;
+	font-size: .9em;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-top: 1px solid #444;
+	border-left: 1px solid #444;
+	border-bottom: 1px solid #888;
+	border-right: 1px solid #888;
+}
+
+.topmenuitemhover
+{
+	cursor: pointer;
+	color: #fff;
+}
+
+#mainform
+{
+	border:solid 1px #ccc;
+	background-color:#fff;
+	min-height:600px;
+	 height:auto !important;
+	 height:700px;
+}

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{770B6287-3688-4B24-B7D0-2E6002EA427A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Accounting.Bll</RootNamespace>
+    <AssemblyName>Accounting.Bll</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accountant.cs" />
+    <Compile Include="Accounts\AccountHistory.cs" />
+    <Compile Include="BOPropertyAttrType.cs" />
+    <Compile Include="BOType.cs" />
+    <Compile Include="BOTransaction.cs" />
+    <Compile Include="Cards\CardHistory.cs" />
+    <Compile Include="Definitions\BOGender.cs" />
+    <Compile Include="Definitions\BOListGender.cs" />
+    <Compile Include="Definitions\BOItemSize.cs" />
+    <Compile Include="Definitions\BOListItemSize.cs" />
+    <Compile Include="Accounts\BOAccount.cs" />
+    <Compile Include="Accounts\BOListAccount.cs" />
+    <Compile Include="Accounts\PLUtil.cs" />
+    <Compile Include="Analysis\BOCashFlow.cs" />
+    <Compile Include="Analysis\BOJobs.cs" />
+    <Compile Include="BOList.cs" />
+    <Compile Include="BusinessObject.cs" />
+    <Compile Include="Cards\BOCard.cs" />
+    <Compile Include="Cards\BOCustomer.cs" />
+    <Compile Include="Cards\BOEmployee.cs" />
+    <Compile Include="Cards\BOListCard.cs" />
+    <Compile Include="Cards\BOSupplier.cs" />
+    <Compile Include="Company\BOCompany.cs" />
+    <Compile Include="Definitions\BODataField.cs" />
+    <Compile Include="Inventory\BOInventoryAdjustment.cs" />
+    <Compile Include="Inventory\BOInventoryAdjustmentLine.cs" />
+    <Compile Include="Inventory\BOItem.cs" />
+    <Compile Include="Definitions\BOListDataField.cs" />
+    <Compile Include="Inventory\BOItemDataFieldEntry.cs" />
+    <Compile Include="BOProperty.cs" />
+    <Compile Include="Inventory\ItemTransactionJournal.cs" />
+    <Compile Include="Purchases\BOPurchaseFactory.cs" />
+    <Compile Include="Sales\BOSaleFactory.cs" />
+    <Compile Include="Security\BOAuthItemFactory.cs" />
+    <Compile Include="Security\BORole.cs" />
+    <Compile Include="Util\BOBackup.cs" />
+    <Compile Include="Util\BOEmail.cs" />
+    <Compile Include="Util\BOPicture.cs" />
+    <Compile Include="Inventory\BOItemsList.cs" />
+    <Compile Include="Inventory\BOItemsRegister.cs" />
+    <Compile Include="Inventory\BOListLocation.cs" />
+    <Compile Include="Inventory\BOLocation.cs" />
+    <Compile Include="Jobs\BOJob.cs" />
+    <Compile Include="Jobs\BOListJob.cs" />
+    <Compile Include="Journals\BOListTransactionJournal.cs" />
+    <Compile Include="Journals\BORecordJournalEntry.cs" />
+    <Compile Include="Journals\BOTransferMoney.cs" />
+    <Compile Include="Purchases\BOListPurchase.cs" />
+    <Compile Include="Purchases\BOPurchase.cs" />
+    <Compile Include="Purchases\BOPurchaseClosedBill.cs" />
+    <Compile Include="Purchases\BOPurchaseDebitReturn.cs" />
+    <Compile Include="Purchases\BOPurchaseOpenBill.cs" />
+    <Compile Include="Purchases\BOPurchaseOrder.cs" />
+    <Compile Include="Purchases\BOPurchaseQuote.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOItemPurchaseLine.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOMiscPurchaseLine.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOProfessionalPurchaseLine.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOPurchaseLine.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOServicePurchaseLine.cs" />
+    <Compile Include="Purchases\PurchaseLines\BOTimeBillingPurchaseLine.cs" />
+    <Compile Include="Sales\BOListSale.cs" />
+    <Compile Include="Sales\BOSale.cs" />
+    <Compile Include="Sales\BOSaleClosedInvoice.cs" />
+    <Compile Include="Sales\BOSaleCreditReturn.cs" />
+    <Compile Include="Sales\BOSaleOpenInvoice.cs" />
+    <Compile Include="Sales\BOSaleOrder.cs" />
+    <Compile Include="Sales\BOSaleQuote.cs" />
+    <Compile Include="Sales\SaleLines\BOItemSaleLine.cs" />
+    <Compile Include="Sales\SaleLines\BOMiscSaleLine.cs" />
+    <Compile Include="Sales\SaleLines\BOProfessionalSaleLine.cs" />
+    <Compile Include="Sales\SaleLines\BOSaleLine.cs" />
+    <Compile Include="Sales\SaleLines\BOServiceSaleLine.cs" />
+    <Compile Include="Sales\SaleLines\BOTimeBillingSaleLine.cs" />
+    <Compile Include="Security\BOUser.cs" />
+    <Compile Include="Util\BOSql.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting\Accounting.csproj">
+      <Project>{48CE4638-1DB4-4919-914E-EF2141F393BC}</Project>
+      <Name>Accounting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

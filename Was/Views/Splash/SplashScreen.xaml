@@ -1,0 +1,124 @@
+﻿<Grid xmlns="http://schemas.microsoft.com/client/2007"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid x:Name="LayoutRoot">
+            <Grid.Triggers>
+                <EventTrigger RoutedEvent="Grid.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard x:Name="CircleGrowing" RepeatBehavior="Forever" Duration="00:00:04" BeginTime="00:00:00">
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow1" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.1000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.1000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.9000000" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.4000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.9000000" Value="0.139"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.4000000" Value="8.528">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow2" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.6000000" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.1000000" Value="0">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="CircleGrow3" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.9000000" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:02.4000000" Value="0">
+                                    <SplineDoubleKeyFrame.KeySpline>
+                                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,1"/>
+                                    </SplineDoubleKeyFrame.KeySpline>
+                                </SplineDoubleKeyFrame>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Grid.Triggers>
+            
+            <Image Source="../Images/logoSoat.png" x:Name="LogoSoat" Width="300" />
+            <Ellipse Width="18" Stroke="#FF83B63B" x:Name="CircleGrow1" StrokeThickness="1" Visibility="Visible" Opacity="0" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,148,112,95" Height="18">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="CircleGrow2" Width="18" Opacity="0" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Stroke="#FF83B63B" StrokeThickness="1" HorizontalAlignment="Right" Margin="0,148,112,95" Height="18">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="CircleGrow3" Width="18" Opacity="0" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Stroke="#FF83B63B" StrokeThickness="1" HorizontalAlignment="Right" Margin="0,148,112,95" Height="18">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+        </Grid>
+        <Grid HorizontalAlignment="Center">
+            <Rectangle x:Name="rectBorder" StrokeThickness="1" Stroke="#FFC8C8C8" Height="7" Width="200" HorizontalAlignment="Left"/>
+            <Rectangle x:Name="rectBar" Fill="#FFC8C8C8" Height="7" Width="0" HorizontalAlignment="Left" />
+        </Grid>
+    </StackPanel>
+</Grid>

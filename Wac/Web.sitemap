@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" url="~/Home/Default.aspx" description="Go To Home">
+    <siteMapNode title="Admin" url="~/Admin/Default.aspx" description="Administration">
+      <siteMapNode title="Company" url="~/Admin/frmCompanyInfo.aspx" description="CompanyInfo Listing">
+        <siteMapNode title="Print" url="~/Admin/frmPrintCompanyInfo.aspx" description="CompanyInfo Report">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Calendar" url="~/Admin/frmCalendar.aspx" description="Calendar">
+      </siteMapNode>
+      <siteMapNode title="Gadgets" url="~/Admin/frmGadgets.aspx" description="Gadgets">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Sales" url="~/Sales/Default.aspx" description="Sales Listing">
+      <siteMapNode title="Sales" url="~/Sales/frmSales.aspx" description="Sale Listing">
+        <siteMapNode title="Print" url="~/Sales/frmPrintSales.aspx" description="Sales Report">
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Purchases" url="~/Purchases/Default.aspx" description="Purchases Listing">
+      <siteMapNode title="Purchases" url="~/Purchases/frmPurchases.aspx" description="Purchase Listing">
+        <siteMapNode title="Print" url="~/Purchases/frmPrintPurchases.aspx" description="Purchases Report">
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Inventory" url="~/Inventory/Default.aspx" description="Inventory Listing">
+      <siteMapNode title="Items" url="~/Inventory/frmItems.aspx" description="Item Listing">
+        <siteMapNode title="Items Report" url="~/Inventory/frmPrintItems.aspx" description="Items Report">
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Report" url="~/Report/Default.aspx" description="Report Listing">
+    </siteMapNode>
+    <siteMapNode title="Contacts" url="~/Contacts/Default.aspx" description="Contact Listing">
+      <siteMapNode title="Suppliers" url="~/Contacts/frmSuppliers.aspx" description="Supplier Listing">
+        <siteMapNode title="Print" url="~/Contacts/frmPrintSuppliers.aspx" description="Print">
+        </siteMapNode>
+        <siteMapNode title="Supplier" url="~/Contacts/frmSupplier.aspx" description="Supplier">
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode title="Customers" url="~/Contacts/frmCustomers.aspx" description="Customer Listing">
+        <siteMapNode title="Print" url="~/Contacts/frmPrintCustomers.aspx" description="Print">
+        </siteMapNode>
+        <siteMapNode title="Customer" url="~/Contacts/frmCustomer.aspx" description="Customer">
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode title="Employees" url="~/Contacts/frmEmployees.aspx" description="Employee Listing">
+        <siteMapNode title="Print" url="~/Contacts/frmPrintEmployees.aspx" description="Print">
+        </siteMapNode>
+        <siteMapNode title="Employee" url="~/Contacts/frmEmployee.aspx" description="Employee">
+        </siteMapNode>
+      </siteMapNode>
+      
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

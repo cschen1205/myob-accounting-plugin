@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_SaleService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:20948/AccService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_SaleService" contract="AccServiceRef.SaleService"
+                name="BasicHttpBinding_SaleService" />
+        </client>
+    </system.serviceModel>
+</configuration>

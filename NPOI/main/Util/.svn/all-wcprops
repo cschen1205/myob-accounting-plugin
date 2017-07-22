@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/54070/AllInOne/main/Util
+END
+LittleEndian.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/54070/AllInOne/main/Util/LittleEndian.cs
+END
+CRC32.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/54070/AllInOne/main/Util/CRC32.cs
+END
+HexRead.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/54070/AllInOne/main/Util/HexRead.cs
+END
+POILogFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/Util/POILogFactory.cs
+END
+ClassID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/54070/AllInOne/main/Util/ClassID.cs
+END
+BitField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/54070/AllInOne/main/Util/BitField.cs
+END
+POILogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/Util/POILogger.cs
+END
+ULongField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/Util/ULongField.cs
+END
+Character.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/Util/Character.cs
+END
+IntegerField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/54070/AllInOne/main/Util/IntegerField.cs
+END
+Arrays.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/54070/AllInOne/main/Util/Arrays.cs
+END
+LongField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/Util/LongField.cs
+END
+FixedField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/Util/FixedField.cs
+END
+ShortField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/Util/ShortField.cs
+END
+StringUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/Util/StringUtil.cs
+END
+ByteField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54070/AllInOne/main/Util/ByteField.cs
+END
+LittleEndianConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/Util/LittleEndianConstants.cs
+END
+NullLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54070/AllInOne/main/Util/NullLogger.cs
+END
+HexDump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/54070/AllInOne/main/Util/HexDump.cs
+END
+BitFieldFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54070/AllInOne/main/Util/BitFieldFactory.cs
+END

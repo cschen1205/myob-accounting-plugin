@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem
+END
+POIFSDocumentWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/POIFSDocumentWriter.cs
+END
+DocumentDescriptor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/DocumentDescriptor.cs
+END
+POIFSDocument.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/POIFSDocument.cs
+END
+BATManaged.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/BATManaged.cs
+END
+DocumentNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/DocumentNode.cs
+END
+POIFSFileSystem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/POIFSFileSystem.cs
+END
+DirectoryEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/DirectoryEntry.cs
+END
+OfficeXmlFileException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/OfficeXmlFileException.cs
+END
+POIFSDocumentPath.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/POIFSDocumentPath.cs
+END
+CloseIgnoringInputStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/CloseIgnoringInputStream.cs
+END
+DocumentEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/DocumentEntry.cs
+END
+Entry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/Entry.cs
+END
+POIFSDocumentReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/POIFSDocumentReader.cs
+END
+EntryNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/EntryNode.cs
+END
+DirectoryNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/54070/AllInOne/main/POIFS/FileSystem/DirectoryNode.cs
+END

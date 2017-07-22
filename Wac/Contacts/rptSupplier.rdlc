@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>4fa02749-000a-410f-88a3-cf4c88bcd69e</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>4afb5804-79b8-4fe9-99d5-2a543857d819</rd:ReportID>
+  <DataSets>
+    <DataSet Name="Accounting_Core_Supplier_Supplier">
+      <Fields>
+        <Field Name="AddressList">
+          <DataField>AddressList</DataField>
+          <rd:TypeName>System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Accounting.Core.Address.Address, Accounting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]</rd:TypeName>
+        </Field>
+        <Field Name="CardIdentification">
+          <DataField>CardIdentification</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CardRecordID">
+          <DataField>CardRecordID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Currency">
+          <DataField>Currency</DataField>
+          <rd:TypeName>Accounting.Core.Currency.Currency</rd:TypeName>
+        </Field>
+        <Field Name="CurrencyID">
+          <DataField>CurrencyID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CurrentBalance">
+          <DataField>CurrentBalance</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceDelivery">
+          <DataField>InvoiceDelivery</DataField>
+          <rd:TypeName>Accounting.Core.InvoiceDelivery.InvoiceDelivery</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceDeliveryID">
+          <DataField>InvoiceDeliveryID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInactive">
+          <DataField>IsInactive</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MainAddress">
+          <DataField>MainAddress</DataField>
+          <rd:TypeName>Accounting.Core.Address.Address</rd:TypeName>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PaymentDelivery">
+          <DataField>PaymentDelivery</DataField>
+          <rd:TypeName>Accounting.Core.InvoiceDelivery.InvoiceDelivery</rd:TypeName>
+        </Field>
+        <Field Name="PaymentDeliveryID">
+          <DataField>PaymentDeliveryID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PurchaseCommentID">
+          <DataField>PurchaseCommentID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PurchaseLayout">
+          <DataField>PurchaseLayout</DataField>
+          <rd:TypeName>Accounting.Core.InvoiceType.InvoiceType</rd:TypeName>
+        </Field>
+        <Field Name="PurchaseLayoutID">
+          <DataField>PurchaseLayoutID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SupplierID">
+          <DataField>SupplierID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TaxCode">
+          <DataField>TaxCode</DataField>
+          <rd:TypeName>Accounting.Core.Tax.TaxCode</rd:TypeName>
+        </Field>
+        <Field Name="TaxCodeID">
+          <DataField>TaxCodeID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TermsID">
+          <DataField>TermsID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Accounting.Core.Supplier</rd:DataSetName>
+        <rd:TableName>Supplier</rd:TableName>
+        <rd:ObjectDataSourceType>Accounting.Core.Supplier.Supplier, Accounting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>6.5in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="Name">
+        <rd:DefaultName>Name</rd:DefaultName>
+        <Top>0.125in</Top>
+        <Width>3.875in</Width>
+        <Style>
+          <FontSize>20pt</FontSize>
+          <FontWeight>900</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.375in</Left>
+        <Height>0.375in</Height>
+        <Value>=First(Fields!Name.Value)</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

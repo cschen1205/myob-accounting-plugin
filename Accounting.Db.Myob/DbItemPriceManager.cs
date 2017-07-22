@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Accounting.Core.Inventory;
+using Accounting.Db;
+
+namespace Accounting.Db.Myob
+{
+    public class DbItemPriceManager : ItemPriceManager
+    {
+        public DbItemPriceManager(DbManager mgr)
+            : base(mgr)
+        {
+            
+        }
+    }
+}

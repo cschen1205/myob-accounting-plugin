@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>2ddfbf03-93ad-4f32-88eb-010309d0119f</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>979a0f47-ef92-4990-ac3d-193f0e78bce5</rd:ReportID>
+  <DataSets>
+    <DataSet Name="Accounting_Core_CompanyInfo_CompanyInfo">
+      <Fields>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Country">
+          <DataField>Country</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Email">
+          <DataField>Email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Fax">
+          <DataField>Fax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID">
+          <DataField>ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Phone1">
+          <DataField>Phone1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Phone2">
+          <DataField>Phone2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PostCode">
+          <DataField>PostCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Province">
+          <DataField>Province</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WebSite">
+          <DataField>WebSite</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RegistrationNumber">
+          <DataField>RegistrationNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Accounting.Core.CompanyInfo</rd:DataSetName>
+        <rd:TableName>CompanyInfo</rd:TableName>
+        <rd:ObjectDataSourceType>Accounting.Core.CompanyInfo.CompanyInfo, Accounting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>6.75in</Width>
+  <Body>
+    <ReportItems>
+      <Rectangle Name="rectangle1">
+        <Left>0.125in</Left>
+        <ReportItems>
+          <Textbox Name="RegistrationNumber">
+            <rd:DefaultName>RegistrationNumber</rd:DefaultName>
+            <Top>0.625in</Top>
+            <Width>4.75in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>23</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.6875in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!RegistrationNumber.Value)</Value>
+          </Textbox>
+          <Line Name="line1">
+            <Top>0.5in</Top>
+            <Width>6.375in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>22</ZIndex>
+            <Left>0.0625in</Left>
+            <Height>0in</Height>
+          </Line>
+          <Textbox Name="textbox3">
+            <Top>0.875in</Top>
+            <Width>5.625in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>21</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.8125in</Left>
+            <Height>0.75in</Height>
+            <Value>=First(Fields!Address.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox4">
+            <Top>0.875in</Top>
+            <Width>0.75in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>20</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Address:</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Top>1.625in</Top>
+            <Width>0.5in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>19</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>City:</Value>
+          </Textbox>
+          <Textbox Name="textbox6">
+            <Top>1.625in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>18</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.5625in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!City.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox7">
+            <Top>1.875in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>17</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Post Code:</Value>
+          </Textbox>
+          <Textbox Name="textbox8">
+            <Top>1.875in</Top>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>16</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.9375in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!PostCode.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox9">
+            <Top>2.125in</Top>
+            <Width>0.75in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>15</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Phone 1:</Value>
+          </Textbox>
+          <Textbox Name="textbox10">
+            <Top>2.125in</Top>
+            <Width>1in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>14</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.8125in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Phone1.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox11">
+            <Top>2.375in</Top>
+            <Width>0.75in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>13</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Email:</Value>
+          </Textbox>
+          <Textbox Name="textbox12">
+            <Top>2.375in</Top>
+            <Width>5.625in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>12</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.8125in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Email.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox13">
+            <Top>2.625in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>11</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Web Site:</Value>
+          </Textbox>
+          <Textbox Name="textbox14">
+            <Top>2.625in</Top>
+            <Width>5.5in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>10</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.9375in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!WebSite.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox15">
+            <Top>1.625in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>9</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.6875in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Province.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox16">
+            <Top>1.625in</Top>
+            <Width>1.75in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>8</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.6875in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Country.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox17">
+            <Top>2.125in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>7</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.8125in</Left>
+            <Height>0.25in</Height>
+            <Value>Phone 2:</Value>
+          </Textbox>
+          <Textbox Name="textbox18">
+            <Top>2.125in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>6</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.6875in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Phone2.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox19">
+            <Top>2.125in</Top>
+            <Width>1.5in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.4375in</Left>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Fax.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox20">
+            <Top>2.125in</Top>
+            <Width>0.5in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>3.9375in</Left>
+            <Height>0.25in</Height>
+            <Value>Fax:</Value>
+          </Textbox>
+          <Textbox Name="textbox21">
+            <Style>
+              <FontSize>20pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Height>0.375in</Height>
+            <Value>=First(Fields!CompanyName.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox22">
+            <Top>0.625in</Top>
+            <Width>1.625in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.0625in</Left>
+            <Height>0.25in</Height>
+            <Value>Registration Number:</Value>
+          </Textbox>
+          <Textbox Name="textbox23">
+            <Top>1.625in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.8125in</Left>
+            <Height>0.25in</Height>
+            <Value>Province:</Value>
+          </Textbox>
+          <Textbox Name="textbox24">
+            <Top>1.625in</Top>
+            <Width>0.75in</Width>
+            <Style>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>3.9375in</Left>
+            <Height>0.25in</Height>
+            <Value>Country:</Value>
+          </Textbox>
+        </ReportItems>
+        <Top>0.125in</Top>
+        <Width>6.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>3.25in</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>3.5in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

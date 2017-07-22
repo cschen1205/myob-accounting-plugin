@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval
+END
+GreaterThanEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/GreaterThanEval.cs
+END
+EqualEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/EqualEval.cs
+END
+NotEqualEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/NotEqualEval.cs
+END
+RelationalOperationEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/57289/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/RelationalOperationEval.cs
+END
+LessEqualEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/LessEqualEval.cs
+END
+GreaterEqualEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/GreaterEqualEval.cs
+END
+LessThanEval.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/54070/AllInOne/main/HSSF/Record/Formula/Eval/RelationalOperationEval/LessThanEval.cs
+END

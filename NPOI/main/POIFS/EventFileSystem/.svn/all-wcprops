@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem
+END
+POIFSReaderRegistry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSReaderRegistry.cs
+END
+POIFSWriterEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSWriterEventArgs.cs
+END
+POIFSWriterEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSWriterEvent.cs
+END
+POIFSReaderEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSReaderEventArgs.cs
+END
+POIFSReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSReader.cs
+END
+POIFSWriterListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSWriterListener.cs
+END
+POIFSReaderEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSReaderEvent.cs
+END
+POIFSReaderListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/54070/AllInOne/main/POIFS/EventFileSystem/POIFSReaderListener.cs
+END

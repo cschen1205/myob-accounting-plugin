@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f8579fbb-8bc4-4be3-8c5d-95448002af01" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:20948/AccService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AccService.xsd" MetadataType="Schema" ID="a90dc901-c5de-44ed-af8e-d591ad6a37c7" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SaleService2.wsdl" MetadataType="Wsdl" ID="a3a3175a-1620-40cb-bea6-f5ffc8c99641" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?wsdl" />
+    <MetadataFile FileName="AccService1.xsd" MetadataType="Schema" ID="7b7818bf-6491-4783-9519-ad75f3e25f24" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AccService.disco" MetadataType="Disco" ID="7ac45058-4960-4c39-bacb-aac41248e756" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?disco" />
+    <MetadataFile FileName="AccService.wsdl" MetadataType="Wsdl" ID="89e186e6-e512-4b05-b085-1d233c2b9c2f" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AccService2.xsd" MetadataType="Schema" ID="07f102e8-e0a7-4705-a5f5-ff40cd827177" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AccService3.xsd" MetadataType="Schema" ID="32518cf9-291e-4c7d-a0c6-c449cd417f60" SourceId="1" SourceUrl="http://localhost:20948/AccService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
